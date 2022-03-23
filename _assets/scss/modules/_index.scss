@@ -1,5 +1,10 @@
 @use 'reset';
+
 @use 'global';
+
 @use 'header';
+@use 'main-view';
+@use 'catch';
+
+@use 'request';
 @use 'footer';
-@use 'footer-info';

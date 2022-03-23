@@ -1,8 +1,4 @@
 .footer {
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-
   &__contents {
     color: #fff;
     background: #1B224C;
@@ -87,12 +83,9 @@
 
   /* copy write
   ------------------------------*/
-
   &__cw-text {
     font-size: 1.2em;
     padding: 1.2rem 0;
     margin: 0 0 0 auto; // 左寄せ
   }
-
-
 }

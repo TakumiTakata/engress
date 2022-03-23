@@ -1,12 +1,13 @@
 .header {
+  // position: fixed;
+  background: #fff;
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
-
   &__inner {
     display: flex;
     align-items: center;
     width: 100%;
+    height: 8rem;
     padding: 15px 0;
   }
 
