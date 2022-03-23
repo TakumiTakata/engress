@@ -1,0 +1,17 @@
+html {
+  font-size: 10px;
+  // font-size: 10 / 1280 * 100vw; //SP~TB
+
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+
+}
+
+.req-btn {
+  display: inline-block;
+  width: 100%;
+  max-width: 26rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #fff;
+  background: #F5A623;
+}

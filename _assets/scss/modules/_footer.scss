@@ -1,0 +1,92 @@
+.footer {
+  &__contents {
+    color: #fff;
+    background: #1B224C;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 14.84vw;
+  }
+
+  /* navi
+  ------------------------------*/
+  &__nav-list {
+    display: flex;
+    align-items: center;
+    margin-top: 4.55rem;
+    font-size: 1.6rem;
+  }
+
+  &__nav-item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__nav-link {
+    padding-right: 2.15rem;
+
+  }
+
+  &__nav-item::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 2.3rem;
+    background: #fff;
+    margin-right: 2.15rem;
+  }
+
+  &__nav-item:last-child:after {
+    display: none;
+  }
+
+  /* content
+  ------------------------------*/
+  &__content {
+    text-align: right;
+  }
+
+  &__home-btn {
+    width: 19.7rem;
+    margin-top: 3.5rem;
+    padding: 1.4rem 1.9rem 1.3rem;
+    background: #fff;
+  }
+
+  &__home-btn img {
+    width: 100%;
+  }
+
+  &__tel-num {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 2.7rem;
+  }
+  &__tel-num span{
+    display: inline-block;
+    width: 1rem;
+    margin-right: .7rem;
+  }
+  &__tel-num span img{
+    width: 100%;
+  }
+
+  &__tel-date {
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+    margin-bottom: 6.8rem;
+  }
+
+  /* copy write
+  ------------------------------*/
+
+  &__cw-text {
+    font-size: 1.2em;
+    padding: 1.2rem 0;
+    margin: 0 0 0 auto; // 左寄せ
+  }
+
+
+}
