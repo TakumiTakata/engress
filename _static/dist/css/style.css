@@ -411,6 +411,9 @@ html {
 }
 
 .header {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
   /* logo
   ------------------------------*/
   /* navi
@@ -422,9 +425,8 @@ html {
 }
 .header__inner {
   display: flex;
-  width: 100%;
-  max-width: 1280px;
   align-items: center;
+  width: 100%;
   padding: 15px 0;
 }
 .header__logo {
@@ -478,6 +480,9 @@ html {
 }
 
 .footer {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
   /* navi
   ------------------------------*/
   /* content
@@ -492,7 +497,7 @@ html {
 .footer__inner {
   display: flex;
   justify-content: space-between;
-  margin: 0 14.84vw;
+  margin: 0 13.43vw 0 14.84vw;
 }
 .footer__nav-list {
   display: flex;
@@ -557,6 +562,7 @@ html {
 .footer-info {
   width: 100%;
   max-width: 1280px;
+  margin: 0 auto;
   /* req
   ------------------------------*/
   /* tel

@@ -1,4 +1,8 @@
 .footer {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+
   &__contents {
     color: #fff;
     background: #1B224C;
@@ -7,7 +11,7 @@
   &__inner {
     display: flex;
     justify-content: space-between;
-    margin: 0 14.84vw;
+    margin: 0 13.43vw 0 14.84vw;
   }
 
   /* navi
@@ -64,12 +68,14 @@
     font-weight: bold;
     margin-top: 2.7rem;
   }
-  &__tel-num span{
+
+  &__tel-num span {
     display: inline-block;
     width: 1rem;
     margin-right: .7rem;
   }
-  &__tel-num span img{
+
+  &__tel-num span img {
     width: 100%;
   }
 
