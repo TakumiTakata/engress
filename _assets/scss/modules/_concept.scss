@@ -1,0 +1,28 @@
+.concept {
+  text-align: center;
+
+  &__item {
+    display: flex;
+  }
+  &__item:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+  &__contents {
+    flex: 1;
+  }
+  &__img {
+    width: 38.8%;
+    height: 0;
+    padding-bottom: calc(68.6% * 0.38);
+    position: relative;
+
+  }
+
+  &__img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}

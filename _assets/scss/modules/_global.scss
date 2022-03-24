@@ -1,4 +1,8 @@
+@use 'variables' as v;
+
 html {
+  color: #1B224C;
+
   font-size: 10px;
   // font-size: 10 / 1280 * 100vw; //SP~TB
 
@@ -27,7 +31,7 @@ body {
   text-align: center;
   font-size: 1.6rem;
   color: #fff;
-  background: #F5A623;
+  background: v.$orange;
 }
 
 .contact-link {

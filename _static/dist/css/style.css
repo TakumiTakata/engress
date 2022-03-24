@@ -395,7 +395,10 @@ th {
   font-weight: bold;
 }
 
+/* colors
+-------------------------------*/
 html {
+  color: #1B224C;
   font-size: 10px;
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }
@@ -537,6 +540,7 @@ body {
   text-align: center;
 }
 .catch__title {
+  margin-top: 6.3rem;
   font-size: 3.6rem;
   color: #fff;
 }
@@ -545,9 +549,61 @@ body {
   justify-content: space-between;
   width: 43.4vw;
   max-width: 90rem;
-  margin: 0 auto;
-  font-size: 1.6rem;
+  margin: 6.5rem auto 0;
+  font-size: 1.8rem;
   color: #fff;
+}
+.catch__text {
+  line-height: 2.2;
+}
+.catch__answer {
+  background: #fff;
+  margin-top: 8.3rem;
+  margin-bottom: 5.4rem;
+  padding: 1.2rem 1.6rem;
+}
+.catch__answer-inr {
+  border: 0.5rem solid #1B224C;
+}
+.catch__answer-ttl {
+  margin-top: 1.5rem;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.catch__answer-ttl span {
+  background: linear-gradient(transparent 75%, #F5A623 0%);
+}
+.catch__answer-txt {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.concept {
+  text-align: center;
+}
+.concept__item {
+  display: flex;
+}
+.concept__item:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.concept__contents {
+  flex: 1;
+}
+.concept__img {
+  width: 38.8%;
+  height: 0;
+  padding-bottom: 26.068%;
+  position: relative;
+}
+.concept__img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .request {

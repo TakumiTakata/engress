@@ -1,10 +1,13 @@
+@use 'variables'as v;
+
 .catch {
-  background: #1B224C;
+  background: v.$navy;
   display: flex;
   flex-direction: column;
   text-align: center;
 
   &__title {
+    margin-top: 6.3rem;
     font-size: 3.6rem;
     color: #fff;
   }
@@ -14,8 +17,42 @@
     justify-content: space-between;
     width: 43.4vw;
     max-width: 90rem;
-    margin: 0 auto;
-    font-size: 1.6rem;
+    margin: 6.5rem auto 0;
+    font-size: 1.8rem;
     color: #fff;
+  }
+
+  &__text {
+    line-height: 2.2;
+  }
+
+  &__answer {
+    background: #fff;
+    margin-top: 8.3rem;
+    margin-bottom: 5.4rem;
+    padding: 1.2rem 1.6rem;
+
+  }
+
+  &__answer-inr {
+    border: .5rem solid v.$navy;
+  }
+
+  &__answer-ttl {
+    margin-top: 1.5rem;
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+  &__answer-ttl span {
+    background: linear-gradient(transparent 75%, v.$orange 0%);
+  }
+
+  &__answer-txt {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 1.5;
   }
 }
