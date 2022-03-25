@@ -3,25 +3,26 @@
 html {
   color: #1B224C;
 
-  font-size: 10px;
-  // font-size: 10 / 1280 * 100vw; //SP~TB
+  // font-size: 10px;
+  font-size: 10 / 1280 * 100vw; //SP~TB
 
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }
 
 body {
   width: 100%;
-  max-width: 1280px;
+  max-width: 128rem;
   margin: 0 auto;
 }
 
 .contents-inner {
-  margin: 0 14.8vw;
+  margin: 0 19rem;
 }
 
 .sub-title {
   font-size: 3.6rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .req-btn {

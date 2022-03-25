@@ -1,0 +1,76 @@
+@use 'variables'as v;
+
+.case {
+  background: v.$navy;
+
+  &__inner {
+    padding: 5.8rem 0 6rem;
+  }
+
+  &__title {
+    color: #fff;
+  }
+
+  &__card-wrap {
+    display: flex;
+    margin-top: 13.7rem;
+  }
+
+  &__card {
+    margin-right: 3.1rem;
+  }
+
+  &__card:last-child {
+    margin-right: 0;
+  }
+
+  &__message {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  &__img {
+    position: relative;
+    background: #fff;
+    width: 28rem;
+    height: 0;
+    padding-bottom: 61%;
+    margin-top: 0.9rem;
+  }
+
+  &__img img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+  }
+
+  &__status {
+    margin-top: 1.6rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__job {
+    width: 10rem;
+    margin-right: 0.8rem;
+    padding: 0.8rem 1rem;
+    background: #fff;
+  }
+
+  &__name {
+    padding: 0.8rem 1.4rem;
+    background: #fff;
+    flex: 1;
+  }
+
+  &__result {
+    margin-top: 1rem;
+    padding: 0.8rem 1.4rem;
+    background: #fff;
+    width: 100%;
+  }
+}
