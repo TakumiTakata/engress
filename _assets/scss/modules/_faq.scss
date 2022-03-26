@@ -1,0 +1,43 @@
+@use 'variables'as v;
+
+.faq {
+  &__title {
+    text-align: center;
+  }
+
+  &__inner {
+    margin-bottom: 9rem;
+  }
+
+  &__contents {
+    margin-top: 3.55rem;
+  }
+
+  &__hr {
+    margin: 1.4rem 0;
+    color: v.$navy;
+  }
+
+  &__hr:first-child {
+    margin-top: 0;
+  }
+
+
+  &__q-txt {
+    font-size: 1.6rem;
+    padding: 1.5rem 0;
+  }
+
+  &__a-txt {
+    font-size: 1.6rem;
+    padding: 2.3rem 2.6rem;
+  }
+
+  &__question:hover {
+    background: #eee;
+  }
+
+  &__answer {
+    background: #F8F8F8;
+  }
+}

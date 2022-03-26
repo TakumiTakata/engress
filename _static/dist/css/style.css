@@ -772,6 +772,37 @@ body {
   font-size: 1.6rem;
 }
 
+.faq__title {
+  text-align: center;
+}
+.faq__inner {
+  margin-bottom: 9rem;
+}
+.faq__contents {
+  margin-top: 3.55rem;
+}
+.faq__hr {
+  margin: 1.4rem 0;
+  color: #1B224C;
+}
+.faq__hr:first-child {
+  margin-top: 0;
+}
+.faq__q-txt {
+  font-size: 1.6rem;
+  padding: 1.5rem 0;
+}
+.faq__a-txt {
+  font-size: 1.6rem;
+  padding: 2.3rem 2.6rem;
+}
+.faq__question:hover {
+  background: #eee;
+}
+.faq__answer {
+  background: #F8F8F8;
+}
+
 .request {
   /* contents
   ------------------------------*/
