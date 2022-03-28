@@ -1,4 +1,4 @@
-@use 'variables' as v;
+@use 'variables'as v;
 
 html {
   color: #1B224C;
@@ -16,7 +16,9 @@ body {
 }
 
 .contents-inner {
-  margin: 0 19rem;
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
 }
 
 .sub-title {
@@ -38,4 +40,28 @@ body {
   font-size: 1.6rem;
   color: #fff;
   text-decoration: underline;
+}
+
+
+.top-view__title {
+  padding: 9.5rem 0;
+  font-size: 3.2rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bread-crump {
+  background: #F8F8F8;
+}
+
+.bread-crump__link {
+  font-size: 1.2rem;
+  padding: 1.9rem 0;
+}
+
+.sub-page-title {
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-align: center;
 }
