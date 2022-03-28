@@ -880,9 +880,9 @@ body {
   margin-bottom: 3rem;
 }
 .news__item {
-  margin-bottom: 6rem;
+  margin-bottom: 1.7rem;
 }
-.news__item a:hover {
+.news__item:hover {
   background: #eee;
 }
 .news__date {
@@ -890,6 +890,7 @@ body {
   font-size: 1.2rem;
 }
 .news__desc {
+  padding-bottom: 4.3rem;
   font-size: 1.6rem;
   text-decoration: underline;
 }
