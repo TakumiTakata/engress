@@ -1,0 +1,50 @@
+@use 'variables' as v;
+
+.summary {
+  padding-bottom: 4.5rem;
+
+  &__title {
+    margin-top: 5.8rem;
+  }
+
+  &__list {
+    margin-top: 6rem;
+  }
+
+  &__item {
+    margin-top: 9.3rem;
+  }
+
+  &__item:first-child {
+    margin-top: 0;
+  }
+
+  &__img-box {
+    width: 100%;
+    max-width: 24rem;
+    height: 0;
+    padding-bottom: calc(24rem * 0.62);
+    margin-right: 5rem;
+  }
+
+  &__tag {
+    padding: 0.8rem 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  &__date {
+   font-size: 1.6rem;
+  }
+
+  &__item-title {
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-decoration: underline .2rem v.$navy;
+  }
+
+  &__description {
+    font-size: 1.6rem;
+  }
+
+
+}

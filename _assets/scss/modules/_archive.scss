@@ -1,6 +1,6 @@
 @use 'variables'as v;
 
-.archive {
+.archives {
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -24,49 +24,23 @@
     margin-bottom: 3.1rem;
   }
 
-  &__item a {
-    display: flex;
-  }
 
-  &__item a:hover {
-    background: #eee;
-  }
 
   /* img --------------------*/
   &__img-box {
     width: 100%;
     max-width: 15rem;
     height: 0;
-    margin-right: 2rem;
     padding-bottom: calc(15rem * 0.73);
-    position: relative;
+    margin-right: 2rem;
   }
 
   &__tag {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
     padding: 0.6rem 0.9rem;
-    background: v.$navy;
     font-size: 1.2rem;
-    color: #fff;
-  }
-
-  &__img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
   }
 
   /* contents --------------------*/
-  &__contents {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
 
   &__desc {
     font-size: 1.6rem;
