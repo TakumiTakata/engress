@@ -10,6 +10,7 @@
 /* layout
 -------------------------------*/
 @use 'layout/l-header';
+@use 'layout/l-main';
 @use 'layout/l-container';
 @use 'layout/l-request';
 @use 'layout/l-footer';
@@ -18,7 +19,8 @@
 /* object
 -------------------------------*/
 //component
-// @use 'object/component/';
+@use 'object/component/c-reception';
+@use 'object/component/c-header-button';
 
 
 //project

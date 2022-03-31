@@ -1,0 +1,17 @@
+@use 'foundation/variables' as v;
+
+.c-header-button {
+  font-size: 1.4rem;
+  color: #fff;
+  border-radius: .5rem;
+
+  &--request {
+    background: v.$orange;
+    padding: 1.8rem 4.3rem;
+  }
+
+  &--inquiry {
+    background: #1B224C;
+    padding: 1.8rem 2.6rem;
+  }
+}

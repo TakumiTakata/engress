@@ -1,0 +1,44 @@
+.l-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    height: 8rem;
+    padding: 15px 0;
+    margin: 0 auto;
+  }
+
+  /* logo */
+  &__logo {
+    width: 13.6rem;
+    margin-left: 1.5rem;
+  }
+
+  &__nav--list {
+    display: flex;
+    font-size: 1.6rem;
+  }
+
+  &__nav--item {
+    margin-left: 2.8rem;
+  }
+
+  /* reception */
+  &__reception {
+    margin-left: auto;
+    margin-right: 2.3rem;
+    text-align: right;
+  }
+
+  /* button */
+  &__button {
+    margin-right: 1rem;
+  }
+}
