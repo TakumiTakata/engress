@@ -1,0 +1,20 @@
+@use 'foundation/variables' as v;
+
+.c-request-button {
+  display: inline-block;
+  width: 100%;
+  max-width: 26rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #fff;
+  background: v.$orange;
+
+  &--large {
+    height: 6rem;
+    line-height: 6rem;
+    border-radius: 3rem;
+  }
+  // &--small {
+
+  // }
+}

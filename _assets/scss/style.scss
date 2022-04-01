@@ -18,9 +18,23 @@
 
 /* object
 -------------------------------*/
-//component
+//component-parts
 @use 'object/component/c-reception';
 @use 'object/component/c-header-button';
+@use 'object/component/c-request-button';
+@use 'object/component/c-contact-link';
+@use 'object/component/c-sub-title';
+//component
+@use 'object/component/c-main-view';
+@use 'object/component/c-catch-copy';
+@use 'object/component/c-concept';
+@use 'object/component/c-case';
+@use 'object/component/c-process';
+@use 'object/component/c-faq';
+@use 'object/component/c-blog';
+@use 'object/component/c-news';
+
+
 
 
 //project

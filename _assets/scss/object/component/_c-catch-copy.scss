@@ -1,16 +1,8 @@
-@use 'variables'as v;
+@use 'foundation/variables' as v;
 
-.catch {
-  background: v.$navy;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
+.c-catch-copy {
   &__title {
     margin-top: 6.3rem;
-    text-align: center;
-    font-size: 3.6rem;
-    color: #fff;
   }
 
   &__text-wrap {
@@ -35,22 +27,22 @@
 
   }
 
-  &__answer-inr {
+  &__answer-inner {
     border: .5rem solid v.$navy;
   }
 
-  &__answer-ttl {
+  &__answer-title {
     margin-top: 1.5rem;
     font-size: 3.6rem;
     font-weight: bold;
     line-height: 1.5;
   }
 
-  &__answer-ttl span {
+  &__answer-title span {
     background: linear-gradient(transparent 75%, v.$orange 0%);
   }
 
-  &__answer-txt {
+  &__answer-text {
     margin-top: 2.5rem;
     margin-bottom: 1.5rem;
     font-size: 1.8rem;

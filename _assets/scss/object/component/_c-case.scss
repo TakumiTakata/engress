@@ -1,15 +1,8 @@
-@use 'variables'as v;
+@use 'foundation/variables'as v;
 
-.case {
-  background: v.$navy;
-
-  &__inner {
-    padding: 5.8rem 0 6rem;
-  }
-
+.c-case {
   &__title {
-    text-align: center;
-    color: #fff;
+    padding-top: 5.8rem;
   }
 
   &__card-wrap {
@@ -74,4 +67,5 @@
     background: #fff;
     width: 100%;
   }
+
 }

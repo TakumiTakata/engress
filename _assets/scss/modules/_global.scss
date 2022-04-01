@@ -1,33 +1,5 @@
 @use 'variables'as v;
 
-
-
-.contents-inner {
-
-}
-
-.sub-title {
-  font-size: 3.6rem;
-  font-weight: bold;
-}
-
-.req-btn {
-  display: inline-block;
-  width: 100%;
-  max-width: 26rem;
-  text-align: center;
-  font-size: 1.6rem;
-  color: #fff;
-  background: v.$orange;
-}
-
-.contact-link {
-  font-size: 1.6rem;
-  color: #fff;
-  text-decoration: underline;
-}
-
-
 /* sub-page
 ---------------------------------------*/
 .top-view__title {

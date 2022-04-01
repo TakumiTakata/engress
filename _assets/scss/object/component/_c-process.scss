@@ -1,12 +1,8 @@
-@use 'variables'as v;
+@use 'foundation/variables'as v;
 
-.process {
-  &__inner {
-    padding: 5.8rem 0 7.5rem;
-  }
-
+.c-process {
   &__title {
-    text-align: center;
+    padding-top: 5.8rem;
   }
 
   &__list {
@@ -27,7 +23,7 @@
     margin-top: 0;
   }
 
-  &__num {
+  &__number {
     width: 6.4rem;
     height: 6.4rem;
     background: v.$orange;
@@ -50,8 +46,9 @@
     background: #C3C3C3;
   }
 
-  &__item-desc {
+  &__item-description {
     margin-left: 5.35rem;
     font-size: 1.6rem;
   }
+
 }
