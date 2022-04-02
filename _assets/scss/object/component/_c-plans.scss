@@ -1,77 +1,6 @@
-@use 'variables'as v;
+@use 'foundation/variables'as v;
 
-.plan-main {
-  padding-bottom: 6.2rem;
-
-  & .top-view {
-    background: urL(../img/plan@2x.png) center center / cover;
-  }
-}
-
-/* figure
------------------------------------*/
-.figure {
-  &__title {
-    margin-top: 5.8rem;
-  }
-
-  &__wrap {
-    margin-top: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__item {
-    width: 28rem;
-    padding: 3.9rem 0;
-    font-size: 2.2rem;
-    color: #fff;
-    text-align: center;
-    background: v.$navy;
-  }
-
-  &__plus {
-    display: inline-block;
-    position: relative;
-    width: 2.7rem;
-    height: 2.7rem;
-    margin: 0 3.55rem;
-  }
-
-  &__plus:before,
-  &__plus:after {
-    display: block;
-    content: '';
-    background-color: v.$navy;
-    position: absolute;
-    width: 2.7rem;
-    height: .2rem;
-    top: 1.25rem;
-    left: 0;
-  }
-
-  &__plus:before {
-    width: .2rem;
-    height: 2.7rem;
-    top: 0;
-    left: 1.25rem;
-  }
-
-  &__text {
-    margin-top: 4.6rem;
-    font-size: 1.6rem;
-    line-height: 1.7;
-  }
-}
-
-/* price-menu
------------------------------------*/
-.price-menu {
-  &__title {
-    margin-top: 9rem;
-  }
-
+.c-plans {
   &__cards {
     margin-top: 7rem;
     display: flex;
@@ -129,12 +58,12 @@
     font-size: 1.6rem;
   }
 
-  &__summary {
+  &__list-item {
     padding-top: 2.3rem;
     font-size: 1.6rem;
   }
 
-  &__summary:first-child {
+  &__list-item:first-child {
     padding-top: 4.8rem;
   }
 
@@ -150,4 +79,5 @@
     border-right: 3px solid v.$navy;
     border-bottom: 3px solid v.$navy;
   }
+
 }

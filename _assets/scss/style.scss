@@ -24,6 +24,14 @@
 @use 'object/component/c-request-button';
 @use 'object/component/c-contact-link';
 @use 'object/component/c-sub-title';
+@use 'object/component/c-blog-item';
+
+@use 'object/component/c-top-view';
+@use 'object/component/c-bread-crump';
+@use 'object/component/c-summary';
+@use 'object/component/c-plans';
+@use 'object/component/c-archives';
+@use 'object/component/c-pagination';
 //component
 @use 'object/component/c-main-view';
 @use 'object/component/c-catch-copy';
@@ -48,4 +56,4 @@
 
 
 //utility
-// @use 'object/utility/';
+@use 'object/utility/u-top-view';

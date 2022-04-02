@@ -10,35 +10,37 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="header__inner">
-      <div class="header__logo"><a href="#"><img src="../img/logo@2x.png" alt="ロゴ"></a></div>
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="header__nav-item">ホーム</li>
-          <li class="header__nav-item">お知らせ</li>
-          <li class="header__nav-item">ブログ</li>
-          <li class="header__nav-item"><a href="plan.html">コース・料金</a></li>
+  <header class="l-header">
+    <div class="l-header__inner">
+      <div class="l-header__logo"><a href="#"><img class="l-header__logo--img" src="./img/logo@2x.png" alt="ロゴ"></a>
+      </div>
+      <nav class="l-header__nav l-header__nav">
+        <ul class="l-header__nav--list">
+          <li class="l-header__nav--item"><a href="">ホーム</a></li>
+          <li class="l-header__nav--item"><a href="">お知らせ</a></li>
+          <li class="l-header__nav--item"><a href="">ブログ</a></li>
+          <li class="l-header__nav--item"><a href="">コース・料金</a></li>
         </ul>
       </nav>
-      <div class="header__tel-wrap">
-        <p class="header__tel-date">平日08:00〜20:00</p>
-        <p class="header__tel-num"><span><img src="../img/tel-icon@2x.png"></span>0123-456-7890</p>
+      <div class="l-header__reception c-reception">
+        <p class="c-reception__date">平日08:00〜20:00</p>
+        <p class="c-reception__num"><span class="c-reception__num--icon"><img
+              src="img/tel-icon@2x.png"></span>0123-456-7890</p>
       </div>
-      <a href="#" class="header__btn header__req">資料請求</a>
-      <a href="#" class="header__btn header__info">お問い合わせ</a>
+      <a href="#" class="l-header__button c-header-button  c-header-button--request">資料請求</a>
+      <a href="#" class="l-header__button c-header-button  c-header-button--inquiry">お問い合わせ</a>
     </div>
   </header>
 
-  <main class="plan-main">
+  <main class="l-main">
     <article>
-      <div class="top-view">
-        <h1 class="top-view__title">コース・料金</h1>
+      <div class="c-top-view u-top-view--price">
+        <h1 class="c-top-view__title">コース・料金</h1>
       </div>
 
-      <div class="bread-crump">
-        <div class="contents-inner">
-          <p class="bread-crump__link">
+      <div class="c-bread-crump">
+        <div class="l-container--main">
+          <p class="c-bread-crump__link">
             <a href="">ホーム</a>
             ＞
             <a href="">料金体系</a>
@@ -46,78 +48,78 @@
         </div>
       </div>
 
-      <section class="plan">
-        <div class="contents-inner">
-          <div class="figure">
-            <h2 class="figure__title sub-page-title">料金体系</h2>
-            <div class="figure__wrap">
-              <p class="figure__item">入会金 39,800円</p>
-              <span class="figure__plus"></span>
-              <p class="figure__item">月額費用</p>
+      <section class="p-price">
+        <div class="l-container--main">
+          <div class="p-price__summary c-summary">
+            <h2 class="c-summary__title c-sub-title c-sub-title--small  c-sub-title--center">料金体系</h2>
+            <div class="c-summary__wrap">
+              <p class="c-summary__item">入会金 39,800円</p>
+              <span class="c-summary__plus"></span>
+              <p class="c-summary__item">月額費用</p>
             </div>
-            <p class="figure__text">
+            <p class="c-summary__text">
               Engressのカリキュラムは完全オーダーメイドのため、カリキュラム内のサポート内容によって料金が変動します。おすすめのスタンダードプランでは、進学先に合わせたサポートまで包括的に行います。</p>
           </div>
 
-          <div class="price-menu">
-            <h2 class="price-menu__title sub-page-title">料金体系</h2>
-            <ul class="price-menu__cards">
-              <li class="price-menu__card">
-                <div class="price-menu__header">
-                  <p class="price-menu__header-txt">基礎プラン</p>
+          <div class="p-price__plans">
+            <h2 class="c-plans__title c-sub-title c-sub-title--small c-sub-title--center">料金表</h2>
+            <ul class="c-plans__cards">
+              <li class="c-plans__card">
+                <div class="c-plans__header">
+                  <p class="c-plans__header-txt">基礎プラン</p>
                 </div>
-                <div class="price-menu__body">
-                  <p class="price-menu__price">59,000円~</p>
-                  <p class="price-menu__attention">*月額（税抜価格）</p>
-                  <div class="price-menu__summary-list">
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>カリキュラム作成</p>
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>TOEFL学習サポート</p>
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>週一回のビデオMTG</p>
-                  </div>
-                </div>
-              </li>
-              <li class="price-menu__card">
-                <div class="price-menu__header">
-                  <p class="price-menu__header-txt">演習プラン</p>
-                </div>
-                <div class="price-menu__body">
-                  <p class="price-menu__price">75,000円~</p>
-                  <p class="price-menu__attention">*月額（税抜価格）</p>
-                  <div class="price-menu__summary-list">
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>カリキュラム作成</p>
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>TOEFL学習サポート</p>
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>週一回のビデオMTG</p>
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>月二回の模試（解説 付き）</p>
-                  </div>
+                <div class="c-plans__body">
+                  <p class="c-plans__price">59,000円~</p>
+                  <p class="c-plans__attention">*月額（税抜価格）</p>
+                  <ul class="c-plans__list">
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>カリキュラム作成</li>
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>TOEFL学習サポート</li>
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>週一回のビデオMTG</li>
+                  </ul>
                 </div>
               </li>
-              <li class="price-menu__card">
-                <div class="price-menu__header--rec">
-                  <p class="price-menu__header-txt">おすすめ</p>
-                  <p class="price-menu__header-txt">志望校対策プラン</p>
+              <li class="c-plans__card">
+                <div class="c-plans__header">
+                  <p class="c-plans__header-txt">演習プラン</p>
                 </div>
-                <div class="price-menu__body">
-                  <p class="price-menu__price--rec">95,000円~</p>
-                  <p class="price-menu__attention">*月額（税抜価格）</p>
-                  <div class="price-menu__summary-list">
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>カリキュラム作成</p>
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>TOEFL学習サポート</p>
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>週一回のビデオMTG</p>
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>月二回の模試（解説付き）</p>
-                    <p class="price-menu__summary"><span class="price-menu__check"></span>週一の英語面接対策</p>
-                  </div>
+                <div class="c-plans__body">
+                  <p class="c-plans__price">75,000円~</p>
+                  <p class="c-plans__attention">*月額（税抜価格）</p>
+                  <ul class="c-plans__list">
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>カリキュラム作成</li>
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>TOEFL学習サポート</li>
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>週一回のビデオMTG</li>
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>月二回の模試（解説 付き）</li>
+                  </ul>
                 </div>
               </li>
-              <li class="price-menu__card">
-                <div class="price-menu__header">
-                  <p class="price-menu__header-txt">フレックスプラン</p>
+              <li class="c-plans__card">
+                <div class="c-plans__header--rec">
+                  <p class="c-plans__header-txt">おすすめ</p>
+                  <p class="c-plans__header-txt">志望校対策プラン</p>
                 </div>
-                <div class="price-menu__body">
-                  <p class="price-menu__price">60,000円~</p>
-                  <p class="price-menu__attention">*月額（税抜価格）</p>
-                  <div class="price-menu__summary-list">
-                    <p class="price-menu__summary">＊別途ご相談ください</p>
-                  </div>
+                <div class="c-plans__body">
+                  <p class="c-plans__price--rec">95,000円~</p>
+                  <p class="c-plans__attention">*月額（税抜価格）</p>
+                  <ul class="c-plans__list">
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>カリキュラム作成</li>
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>TOEFL学習サポート</li>
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>週一回のビデオMTG</li>
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>月二回の模試（解説付き）</li>
+                    <li class="c-plans__list-item"><span class="c-plans__check"></span>週一の英語面接対策</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="c-plans__card">
+                <div class="c-plans__header">
+                  <p class="c-plans__header-txt">フレックスプラン</p>
+                </div>
+                <div class="c-plans__body">
+                  <p class="c-plans__price">60,000円~</p>
+                  <p class="c-plans__attention">*月額（税抜価格）</p>
+                  <ul class="c-plans__list">
+                    <li class="c-plans__list-item">＊別途ご相談ください</li>
+                  </ul>
                 </div>
               </li>
             </ul>
@@ -128,45 +130,44 @@
   </main>
 
 
-  <div class="request">
-    <div class="request__contents">
-      <h2 class="request__title">まずは無料で資料請求から</h2>
-      <a class="request__btn req-btn" href="">資料請求</a>
-      <a class="request__link contact-link" href="">お問い合わせ</a>
+  <div class="l-request">
+    <div class="l-request__contents">
+      <h2 class="l-request__title">まずは無料で資料請求から</h2>
+      <a class="l-request__btn c-request-button c-request-button--small" href="">資料請求</a>
+      <a class="l-request__link c-contact-link" href="">お問い合わせ</a>
     </div>
-    <div class="request__tel">
-      <div class="request__tel-inner">
-        <p class="request__tel-text">お電話でのお問い合わせはこちら</p>
-        <p class="request__tel-num">0123-456-7890</p>
-        <p class="request__tel-date">平日 08:00~20:00</p>
+    <div class="l-request__tell">
+      <div class="l-request__tell-inner">
+        <p class="l-request__tell-text">お電話でのお問い合わせはこちら</p>
+        <p class="l-request__tell-num">0123-456-7890</p>
+        <p class="l-request__tell-date">平日 08:00~20:00</p>
       </div>
     </div>
   </div>
 
 
-  <footer class="footer">
-    <div class="footer__contents">
-      <div class="footer__inner">
-        <div class="footer__nav">
-          <ul class="footer__nav-list">
-            <li class="footer__nav-item"><a class="footer__nav-link" href="">ホーム</a></li>
-            <li class="footer__nav-item"><a class="footer__nav-link" href="">お知らせ</a></li>
-            <li class="footer__nav-item"><a class="footer__nav-link" href="">ブログ</a></li>
-            <li class="footer__nav-item"><a class="footer__nav-link" href="">コース・料金</a></li>
+  <footer class="l-footer">
+    <div class="l-footer__contents">
+      <div class="l-footer__inner">
+        <div class="l-footer__nav">
+          <ul class="l-footer__nav-list">
+            <li class="l-footer__nav-item"><a class="l-footer__nav-link" href="">ホーム</a></li>
+            <li class="l-footer__nav-item"><a class="l-footer__nav-link" href="">お知らせ</a></li>
+            <li class="l-footer__nav-item"><a class="l-footer__nav-link" href="">ブログ</a></li>
+            <li class="l-footer__nav-item"><a class="l-footer__nav-link" href="">コース・料金</a></li>
           </ul>
         </div>
-        <div class="footer__content">
-          <button class="footer__home-btn"><a href="#"><img src="../img/logo@2x.png" alt="ホーム"></a></button>
-          <p class="footer__tel-num"><span><img src="img/tel-w-icon@2x.png"></span>0123-456-7890</p>
-          <p class="footer__tel-date">平日08:00〜20:00</p>
+        <div class="l-footer__content">
+          <button class="l-footer__home-btn"><a href="#"><img src="../img/logo@2x.png" alt="ホーム"></a></button>
+          <p class="l-footer__tel-num"><span><img src="img/tel-w-icon@2x.png"></span>0123-456-7890</p>
+          <p class="l-footer__tel-date">平日08:00〜20:00</p>
         </div>
-
       </div>
     </div>
 
-    <div class="footer__cw">
-      <div class="footer__inner">
-        <p class="footer__cw-text">&copy; 2020 Engress.</p>
+    <div class="l-footer__cw">
+      <div class="l-footer__inner">
+        <p class="l-footer__cw-text">&copy; 2020 Engress.</p>
       </div>
     </div>
   </footer>

@@ -1,0 +1,54 @@
+.l-request {
+
+  /* contents
+  ------------------------------*/
+  &__contents {
+    background: url('../img/cta-1@2x.png') center center / cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+  }
+
+  &__title {
+    padding-top: 7rem;
+    font-size: 3.6rem;
+    color: #fff;
+  }
+
+  &__btn {
+    margin-top: 1.6rem;
+  }
+
+  &__link {
+    padding-top: 2.2rem;
+  }
+
+  /* tell
+  ------------------------------*/
+  &__tell {
+    height: 8rem;
+    padding-top: 2rem;
+  }
+
+  &__tell-inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  &__tell-text {
+    font-size: 1.6rem;
+    margin-right: 2rem;
+  }
+
+  &__tell-num {
+    font-size: 3.6rem;
+    margin-right: 2rem;
+  }
+
+  &__tell-date {
+    font-size: 1.6rem;
+  }
+
+}
