@@ -32,6 +32,10 @@
 @use 'object/component/c-plans';
 @use 'object/component/c-archives';
 @use 'object/component/c-pagination';
+@use 'object/component/c-blog-contents';
+@use 'object/component/c-recommend';
+@use 'object/component/c-relation';
+@use 'object/component/c-news-summary';
 //component
 @use 'object/component/c-main-view';
 @use 'object/component/c-catch-copy';
@@ -50,8 +54,8 @@
 @use 'object/project/p-price';
 @use 'object/project/p-archives';
 @use 'object/project/p-archive';
-@use 'object/project/p-posts';
-@use 'object/project/p-post';
+@use 'object/project/p-news';
+@use 'object/project/p-news-post';
 @use 'object/project/p-form';
 
 

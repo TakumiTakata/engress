@@ -32,6 +32,9 @@
 
   /* contents --------------------*/
 
+  &__contents {
+    justify-content: space-between;
+  }
   &__description {
     font-size: 1.6rem;
     font-weight: bold;

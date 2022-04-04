@@ -1,3 +1,117 @@
+@use 'foundation/variables'as v;
+
 .c-blog-contents {
-  
+  margin-top: 6rem;
+
+  &__tag {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background: v.$navy;
+  }
+
+  &__title {
+    margin-top: 3rem;
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+
+  &__data-wrap {
+    display: flex;
+    margin-top: 2.5rem;
+  }
+
+  &__share-list {
+    display: flex;
+  }
+
+  &__share-item {
+    margin-right: 0.4rem;
+    padding: .5rem .8rem;
+    border-radius: .3rem;
+    color: #fff;
+  }
+
+  &__share-item--fb {
+    background: #305097;
+  }
+
+  &__share-item--sns {
+    background: #305097;
+  }
+
+  &__share-item--tw {
+    background: #00ACED;
+  }
+
+  &__date {
+    margin-right: 0;
+    margin-left: auto;
+    font-size: 1.6rem;
+  }
+
+  &__img  {
+    margin-top: 2.2rem;
+  }
+  &__img img {
+    width: 100%;
+  }
+
+  &__h2 {
+    margin-top: 4rem;
+    font-size: 2.6rem;
+    font-weight: bold;
+  }
+
+  &__text {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+  }
+  &__h3 {
+    margin-top: 3.3rem;
+    padding-left: 0.4rem;
+    border-left: .4rem solid v.$navy;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  &__quote-area {
+    margin-top: 3rem;
+    padding: 2.6rem;
+    background: #F8F8F8;
+    display: flex;
+  }
+  &__quote-icon {
+    max-width: 4.6rem;
+    width: 100%;
+  }
+  &__quote-text {
+    font-size: 1.6rem;
+  }
+
+&__list {
+  margin-top: 3rem;
+}
+&__list-item {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-left: 3.2rem; // (before size + margin-right)
+  text-indent: -3.2rem;
+}
+&__list-item::before {
+  content: "";
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-right: 2.1rem;
+  border-radius: 50%;
+  background: v.$orange;
+}
+&__link {
+  display: inline-block;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  color: v.$orange;
+  text-decoration: underline;
+}
 }
