@@ -9,93 +9,201 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <header class="header">
-    <div class="header__inner">
-      <div class="header__logo"><a href="#"><img src="../img/logo@2x.png" alt="ロゴ"></a></div>
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="header__nav-item">ホーム</li>
-          <li class="header__nav-item">お知らせ</li>
-          <li class="header__nav-item">ブログ</li>
-          <li class="header__nav-item"><a href="plan.html">コース・料金</a></li>
+<body class="l-body p-archive">
+  <header class="l-header">
+    <div class="l-header__inner">
+      <div class="l-header__logo"><a href="#"><img class="l-header__logo--img" src="./img/logo@2x.png" alt="ロゴ"></a>
+      </div>
+      <nav class="l-header__nav l-header__nav">
+        <ul class="l-header__nav--list">
+          <li class="l-header__nav--item"><a href="">ホーム</a></li>
+          <li class="l-header__nav--item"><a href="">お知らせ</a></li>
+          <li class="l-header__nav--item"><a href="">ブログ</a></li>
+          <li class="l-header__nav--item"><a href="">コース・料金</a></li>
         </ul>
       </nav>
-      <div class="header__tel-wrap">
-        <p class="header__tel-date">平日08:00〜20:00</p>
-        <p class="header__tel-num"><span><img src="../img/tel-icon@2x.png"></span>0123-456-7890</p>
+      <div class="l-header__reception c-reception">
+        <p class="c-reception__date">平日08:00〜20:00</p>
+        <p class="c-reception__num"><span class="c-reception__num--icon"><img
+              src="img/tel-icon@2x.png"></span>0123-456-7890</p>
       </div>
-      <a href="#" class="header__btn header__req">資料請求</a>
-      <a href="#" class="header__btn header__info">お問い合わせ</a>
+      <a href="#" class="l-header__button c-header-button  c-header-button--request">資料請求</a>
+      <a href="#" class="l-header__button c-header-button  c-header-button--inquiry">お問い合わせ</a>
     </div>
   </header>
 
-  <main class="plan-main">
-    <article>
-      <div class="top-view">
-        <h1 class="top-view__title">コース・料金</h1>
-      </div>
-
-      <div class="bread-crump">
-        <div class="contents-inner">
-          <p class="bread-crump__link">
-            <a href="">ホーム</a>
-            ＞
-            <a href="">ブログ</a>
-            ＞
-            <a href="">カテゴリ1</a>
-            ＞
-            <a href="">ブログタイトルテキストテキストテキストテキスト</a>
-          </p>
-        </div>
-      </div>
-
-
-    </article>
-    
-  </main>
-
-
-
-  <div class="request">
-    <div class="request__contents">
-      <h2 class="request__title">まずは無料で資料請求から</h2>
-      <a class="request__btn req-btn" href="">資料請求</a>
-      <a class="request__link contact-link" href="">お問い合わせ</a>
+  <div class="c-bread-crump">
+    <div class="l-container--1col">
+      <p class="c-bread-crump__link">
+        <a href="">ホーム</a>
+        ＞
+        <a href="">ブログ</a>
+        ＞
+        <a href="">カテゴリ1</a>
+        ＞
+        <a href="">ブログタイトルテキストテキストテキストテキスト</a>
+      </p>
     </div>
-    <div class="request__tel">
-      <div class="request__tel-inner">
-        <p class="request__tel-text">お電話でのお問い合わせはこちら</p>
-        <p class="request__tel-num">0123-456-7890</p>
-        <p class="request__tel-date">平日 08:00~20:00</p>
+  </div>
+
+  <div class="l-container--2col">
+    <main>
+      <article>
+        <section class="p-archive__contents l-container--2col-main c-blog-contents">
+          <p class="c-blog-contents__tag">カテゴリー1
+          </p>
+          <h1 class="c-blog-contents__title">ブログタイトルテキストテキストテキストテキスト</h1>
+          <div class="c-blog-contents__data-wrap">
+            <ul class="c-blog-contents__share-list">
+              <li class="c-blog-contents__share-item">Like</li>
+              <li class="c-blog-contents__share-item">Share</li>
+              <li class="c-blog-contents__share-item">いいね</li>
+            </ul>
+            <p class="c-blog-contents__date">2020-01-01</p>
+          </div>
+          <div class="c-blog-contents__img"><img src="../img/sample01@2x.png" alt=""></div>
+          <h2 class="c-blog-contents__h2">見出しh2</h2>
+          <p class="c-blog-contents__text">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。</p>
+          <h3 class="c-blog-contents__h3">見出しh3</h3>
+          <p class="c-blog-contents__text">本文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <div class="c-blog-contents__quote-area">
+            <span class="c-blog-contents__quote-icon"><img src="" alt=""></span>
+            <p class="c-blog-contents__quote-text">引用文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+          <div class="c-blog-contents__img"><img src="../img/sample4@2x.png" alt=""></div>
+          <ul class="c-blog-contents__list">
+            <li class="c-blog-contents__item">リストリストリストリストリスト</li>
+            <li class="c-blog-contents__item">リストリストリストリストリストリストリストリストリスト</li>
+            <li class="c-blog-contents__item">リストリストリストリストリストリストリストリストリストリストリストリストリストリストリスト</li>
+          </ul>
+          <a href="" class="c-blog-contents__link">テキストリンクテキストリンク</a>
+        </section>
+
+        <aside class="p-archive__recommend">
+          <h2 class="c-recommend__title">おすすめの記事</h2>
+          <ul class="c-recommend__list c-blog__list">
+            <li class="c-recommend__item c-blog__item c-blog-item">
+              <a class="c-blog-item__link" href="">
+                <div class="c-blog__img-box c-blog-item__img-box">
+                  <div class="c-blog__tag c-blog-item__img-tag">カテゴリー</div>
+                  <img class="c-blog__img c-blog-item__img" src="../img/sample01@2x.png" alt="サムネイル">
+                </div>
+                <div class="c-blog__contents c-blog-item__contents">
+                  <p class="c-blog__date">2020-12-27</p>
+                  <p class="c-blog__description">Engress説明会in大阪の模様をお伝えします</p>
+                </div>
+              </a>
+            </li>
+            <li class="c-recommend__item c-blog__item c-blog-item">
+              <a class="c-blog-item__link" href="">
+                <div class="c-blog__img-box c-blog-item__img-box">
+                  <div class="c-blog__tag c-blog-item__img-tag">カテゴリー</div>
+                  <img class="c-blog__img c-blog-item__img" src="../img/sample02@2x.png" alt="サムネイル">
+                </div>
+                <div class="c-blog__contents c-blog-item__contents">
+                  <p class="c-blog__date">2020-12-01</p>
+                  <p class="c-blog__description">Engressもくもく会でみんなでTOEFL学習をしませんか？</p>
+                </div>
+              </a>
+            </li>
+            <li class="c-recommend__item c-blog__item c-blog-item">
+              <a class="c-blog-item__link" href="">
+                <div class="c-blog__img-box c-blog-item__img-box">
+                  <div class="c-blog__tag c-blog-item__img-tag">カテゴリー</div>
+                  <img class="c-blog__img c-blog-item__img" src="../img/sample03@2x.png" alt="サムネイル">
+                </div>
+                <div class="c-blog__contents c-blog-item__contents">
+                  <p class="c-blog__date">2020-11-20</p>
+                  <p class="c-blog__description">TOEFL学習にはコーチング学習が最強である話</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </article>
+
+    </main>
+
+    <aside>
+      <div class="p-archive__relation">
+        <h3 class="c-relation__title">関連記事</h3>
+        <ul class="c-relation__list">
+          <li class="c-relation__item">
+            <div class="c-relation__img">
+              <img src="../img/damy-img@2x.jpg" alt="">
+
+            </div>
+            <p class="c-relation__blog-title">ブログタイトルテキストテキストテキストテキストテキストテキスト</p>
+          </li>
+          <li class="c-relation__item">
+            <div class="c-relation__img">
+              <img src="../img/damy-img@2x.jpg" alt="">
+
+            </div>
+            <p class="c-relation__blog-title">ブログタイトルテキストテキストテキストテキスト</p>
+          </li>
+          <li class="c-relation__item">
+            <div class="c-relation__img">
+              <img src="../img/damy-img@2x.jpg" alt="">
+
+            </div>
+            <p class="c-relation__blog-title">ブログタイトルテキストテキスト</p>
+          </li>
+        </ul>
+      </div>
+      <div class="p-archive__category">
+        <h3 class="c-category__title">関連記事</h3>
+        <ul class="c-category__list">
+          <li class="c-category__item"><a href="">カテゴリー1</a>
+          </li>
+          <li class="c-category__item"><a href="">カテゴリー2</a>
+          </li>
+          <li class="c-category__item"><a href="">カテゴリー3</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+
+  <div class="l-request">
+    <div class="l-request__contents">
+      <h2 class="l-request__title">まずは無料で資料請求から</h2>
+      <a class="l-request__btn c-request-button c-request-button--small" href="">資料請求</a>
+      <a class="l-request__link c-contact-link" href="">お問い合わせ</a>
+    </div>
+    <div class="l-request__tell">
+      <div class="l-request__tell-inner">
+        <p class="l-request__tell-text">お電話でのお問い合わせはこちら</p>
+        <p class="l-request__tell-num">0123-456-7890</p>
+        <p class="l-request__tell-date">平日 08:00~20:00</p>
       </div>
     </div>
   </div>
 
 
-  <footer class="footer">
-    <div class="footer__contents">
-      <div class="footer__inner">
-        <div class="footer__nav">
-          <ul class="footer__nav-list">
-            <li class="footer__nav-item"><a class="footer__nav-link" href="">ホーム</a></li>
-            <li class="footer__nav-item"><a class="footer__nav-link" href="">お知らせ</a></li>
-            <li class="footer__nav-item"><a class="footer__nav-link" href="">ブログ</a></li>
-            <li class="footer__nav-item"><a class="footer__nav-link" href="">コース・料金</a></li>
+  <footer class="l-footer">
+    <div class="l-footer__contents">
+      <div class="l-footer__inner">
+        <div class="l-footer__nav">
+          <ul class="l-footer__nav-list">
+            <li class="l-footer__nav-item"><a class="l-footer__nav-link" href="">ホーム</a></li>
+            <li class="l-footer__nav-item"><a class="l-footer__nav-link" href="">お知らせ</a></li>
+            <li class="l-footer__nav-item"><a class="l-footer__nav-link" href="">ブログ</a></li>
+            <li class="l-footer__nav-item"><a class="l-footer__nav-link" href="">コース・料金</a></li>
           </ul>
         </div>
-        <div class="footer__content">
-          <button class="footer__home-btn"><a href="#"><img src="../img/logo@2x.png" alt="ホーム"></a></button>
-          <p class="footer__tel-num"><span><img src="img/tel-w-icon@2x.png"></span>0123-456-7890</p>
-          <p class="footer__tel-date">平日08:00〜20:00</p>
+        <div class="l-footer__content">
+          <button class="l-footer__home-btn"><a href="#"><img src="../img/logo@2x.png" alt="ホーム"></a></button>
+          <p class="l-footer__tel-num"><span><img src="img/tel-w-icon@2x.png"></span>0123-456-7890</p>
+          <p class="l-footer__tel-date">平日08:00〜20:00</p>
         </div>
-
       </div>
     </div>
 
-    <div class="footer__cw">
-      <div class="footer__inner">
-        <p class="footer__cw-text">&copy; 2020 Engress.</p>
+    <div class="l-footer__cw">
+      <div class="l-footer__inner">
+        <p class="l-footer__cw-text">&copy; 2020 Engress.</p>
       </div>
     </div>
   </footer>
