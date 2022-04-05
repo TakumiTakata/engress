@@ -1,0 +1,29 @@
+@use 'foundation/variables'as v;
+
+.c-form {
+  &__text {
+    font-size: 1.6rem;
+    line-height: 1.68;
+  }
+  &__text--bold {
+    font-weight: bold;
+  }
+
+  &__label {
+    font-size: 1.6rem;
+  }
+
+  &__str-input {
+    font-size: 1.2rem;
+    padding: 1.9rem 2rem;
+    border: .05rem solid v.$navy;
+  }
+  &__select-input {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  &__textarea {
+    
+  }
+}

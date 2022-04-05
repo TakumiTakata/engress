@@ -463,6 +463,11 @@ img {
   max-width: 90rem;
   margin: 0 auto;
 }
+.l-container--form {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+}
 .l-container--2col {
   display: flex;
   max-width: 89.5rem;
@@ -1089,6 +1094,25 @@ img {
   text-overflow: ellipsis;
 }
 
+.c-form__text {
+  font-size: 1.6rem;
+  line-height: 1.68;
+}
+.c-form__text--bold {
+  font-weight: bold;
+}
+.c-form__label {
+  font-size: 1.6rem;
+}
+.c-form__str-input {
+  font-size: 1.2rem;
+  padding: 1.9rem 2rem;
+  border: 0.05rem solid #1B224C;
+}
+.c-form__select-input {
+  width: 2rem;
+  height: 2rem;
+}
 .c-main-view__title {
   margin-top: 11.6rem;
   font-size: 4.2rem;
@@ -1508,7 +1532,8 @@ img {
   text-align: right;
 }
 .p-news-post__img {
-  margin-top: 2.2rem;
+  margin-top: 3rem;
+  max-width: 40rem;
 }
 .p-news-post__h2 {
   margin-top: 6rem;
@@ -1529,6 +1554,29 @@ img {
   margin-top: 3rem;
 }
 
+.p-form__form-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.p-form__message {
+  margin-top: 5.8rem;
+}
+.p-form__label {
+  margin-top: 2rem;
+}
+.p-form__input {
+  margin-top: 1.2em;
+}
+.p-form__select {
+  margin-top: 2.4rem;
+}
+.p-form__select-label {
+  margin-top: 1.8rem;
+}
+.p-form__select-label:first-child {
+  margin-top: 2rem;
+}
+
 .u-top-view--price {
   background: url(../img/plan@2x.png) center center/cover;
 }
@@ -1537,6 +1585,9 @@ img {
 }
 .u-top-view--news {
   background: url(../img/news@2x.png) center center/cover;
+}
+.u-top-view--contact {
+  background: url(../img/cta@2x.png) center center/cover;
 }
 
 /* foundation

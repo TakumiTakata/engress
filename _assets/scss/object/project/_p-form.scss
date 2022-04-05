@@ -1,0 +1,26 @@
+.p-form {
+  &__form-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__message {
+    margin-top: 5.8rem;
+  }
+
+  &__label {
+    margin-top: 2rem;
+  }
+  &__input {
+    margin-top: 1.2em;
+  }
+  &__select {
+    margin-top: 2.4rem;
+  }
+  &__select-label {
+    margin-top: 1.8rem;
+  }
+  &__select-label:first-child {
+    margin-top: 2rem;
+  }
+}
