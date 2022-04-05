@@ -1,0 +1,44 @@
+.p-news-post {
+
+  /* contents
+  ----------------------------*/
+  &__contents {
+    padding-bottom: 6rem;
+  }
+
+  &__date {
+    margin-top: 3.6rem;
+    font-size: 1.6rem;
+    text-align: right;
+  }
+
+  &__img {
+    margin-top: 2.2rem;
+  }
+
+
+  &__h2 {
+    margin-top: 6rem;
+  }
+
+  &__h3 {
+    margin-top: 3.3rem;
+  }
+
+  &__text {
+    margin-top: 3rem;
+  }
+
+  &__quote-area {
+    margin-top: 3rem;
+  }
+
+  &__list {
+    margin-top: 3rem;
+  }
+
+  &__link {
+    margin-top: 3rem;
+  }
+
+}

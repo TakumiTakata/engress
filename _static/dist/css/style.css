@@ -891,8 +891,20 @@ img {
   background: #1B224C;
 }
 .c-blog-contents__title {
-  margin-top: 3rem;
+  line-height: 1.7;
   font-size: 2.8rem;
+  font-weight: bold;
+}
+.c-blog-contents__h2 {
+  margin-top: 4rem;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+.c-blog-contents__h3 {
+  margin-top: 3.3rem;
+  padding-left: 0.4rem;
+  border-left: 0.4rem solid #1B224C;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 .c-blog-contents__data-wrap {
@@ -928,21 +940,9 @@ img {
 .c-blog-contents__img img {
   width: 100%;
 }
-.c-blog-contents__h2 {
-  margin-top: 4rem;
-  font-size: 2.6rem;
-  font-weight: bold;
-}
 .c-blog-contents__text {
   margin-top: 3rem;
   font-size: 1.6rem;
-}
-.c-blog-contents__h3 {
-  margin-top: 3.3rem;
-  padding-left: 0.4rem;
-  border-left: 0.4rem solid #1B224C;
-  font-size: 2.2rem;
-  font-weight: bold;
 }
 .c-blog-contents__quote-area {
   margin-top: 3rem;
@@ -1453,8 +1453,36 @@ img {
   padding-bottom: 4.5rem;
 }
 
+.p-archive {
+  /* contents
+  ----------------------------*/
+}
 .p-archive__contents {
   padding-bottom: 6rem;
+}
+.p-archive__title {
+  margin-top: 3rem;
+}
+.p-archive__img {
+  margin-top: 2.2rem;
+}
+.p-archive__h2 {
+  margin-top: 4rem;
+}
+.p-archive__text {
+  margin-top: 3rem;
+}
+.p-archive__h3 {
+  margin-top: 3.3rem;
+}
+.p-archive__quote-area {
+  margin-top: 3rem;
+}
+.p-archive__list {
+  margin-top: 3rem;
+}
+.p-archive__link {
+  margin-top: 3rem;
 }
 .p-archive__recommend {
   padding-bottom: 5rem;
@@ -1465,6 +1493,40 @@ img {
 
 .p-news {
   padding-bottom: 4.6rem;
+}
+
+.p-news-post {
+  /* contents
+  ----------------------------*/
+}
+.p-news-post__contents {
+  padding-bottom: 6rem;
+}
+.p-news-post__date {
+  margin-top: 3.6rem;
+  font-size: 1.6rem;
+  text-align: right;
+}
+.p-news-post__img {
+  margin-top: 2.2rem;
+}
+.p-news-post__h2 {
+  margin-top: 6rem;
+}
+.p-news-post__h3 {
+  margin-top: 3.3rem;
+}
+.p-news-post__text {
+  margin-top: 3rem;
+}
+.p-news-post__quote-area {
+  margin-top: 3rem;
+}
+.p-news-post__list {
+  margin-top: 3rem;
+}
+.p-news-post__link {
+  margin-top: 3rem;
 }
 
 .u-top-view--price {

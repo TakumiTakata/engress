@@ -1,7 +1,44 @@
 .p-archive {
+  /* contents
+  ----------------------------*/
   &__contents {
     padding-bottom: 6rem;
   }
+
+  &__title {
+    margin-top: 3rem;
+  }
+
+  &__img {
+    margin-top: 2.2rem;
+  }
+
+
+  &__h2 {
+    margin-top: 4rem;
+  }
+
+  &__text {
+    margin-top: 3rem;
+  }
+
+  &__h3 {
+    margin-top: 3.3rem;
+  }
+
+  &__quote-area {
+    margin-top: 3rem;
+  }
+
+  &__list {
+    margin-top: 3rem;
+  }
+
+  &__link {
+    margin-top: 3rem;
+  }
+
+
 
   &__recommend {
     padding-bottom: 5rem;
