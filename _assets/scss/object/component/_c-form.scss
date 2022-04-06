@@ -5,8 +5,13 @@
     font-size: 1.6rem;
     line-height: 1.68;
   }
+
   &__text--bold {
     font-weight: bold;
+  }
+
+  &__placeholder::placeholder {
+    color: #B4B4B4;
   }
 
   &__label {
@@ -18,12 +23,37 @@
     padding: 1.9rem 2rem;
     border: .05rem solid v.$navy;
   }
+
   &__select-input {
     width: 2rem;
     height: 2rem;
   }
 
   &__textarea {
-    
+    padding: 2.2rem;
+    font-size: 1.2em;
+    border: .05rem solid v.$navy;
+  }
+
+  &__policy-text {
+    font-size: 1.6rem;
+  }
+
+  &__policy-label {
+    font-size: 1.6rem;
+  }
+
+  &__policy-input {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  &__submit-text {
+    padding: 1.7rem 6.8rem;
+    font-size: 1.6rem;
+    color: #fff;
+    border-radius: .5rem;
+    background: v.$navy;
+
   }
 }

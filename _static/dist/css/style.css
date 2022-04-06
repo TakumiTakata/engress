@@ -1101,6 +1101,9 @@ img {
 .c-form__text--bold {
   font-weight: bold;
 }
+.c-form__placeholder::placeholder {
+  color: #B4B4B4;
+}
 .c-form__label {
   font-size: 1.6rem;
 }
@@ -1113,6 +1116,29 @@ img {
   width: 2rem;
   height: 2rem;
 }
+.c-form__textarea {
+  padding: 2.2rem;
+  font-size: 1.2em;
+  border: 0.05rem solid #1B224C;
+}
+.c-form__policy-text {
+  font-size: 1.6rem;
+}
+.c-form__policy-label {
+  font-size: 1.6rem;
+}
+.c-form__policy-input {
+  width: 2rem;
+  height: 2rem;
+}
+.c-form__submit-text {
+  padding: 1.7rem 6.8rem;
+  font-size: 1.6rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  background: #1B224C;
+}
+
 .c-main-view__title {
   margin-top: 11.6rem;
   font-size: 4.2rem;
@@ -1557,6 +1583,7 @@ img {
 .p-form__form-wrap {
   display: flex;
   flex-direction: column;
+  padding-bottom: 8.2rem;
 }
 .p-form__message {
   margin-top: 5.8rem;
@@ -1576,6 +1603,38 @@ img {
 .p-form__select-label:first-child {
   margin-top: 2rem;
 }
+.p-form__textarea-label {
+  margin-top: 2.6rem;
+}
+.p-form__textarea-input {
+  margin-top: 1.2em;
+}
+.p-form__policy-text {
+  margin-top: 3rem;
+  text-align: center;
+}
+.p-form__policy-label {
+  margin-top: 3.3rem;
+  text-align: center;
+}
+.p-form__submit-button {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+}
+.p-form__thanks {
+  padding-bottom: 8rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.p-form__thanks-message {
+  margin-top: 8.3rem;
+  line-height: 1.7;
+}
+.p-form__thanks-link {
+  display: inline-block;
+  margin-top: 8.3rem;
+}
 
 .u-top-view--price {
   background: url(../img/plan@2x.png) center center/cover;
@@ -1588,6 +1647,13 @@ img {
 }
 .u-top-view--contact {
   background: url(../img/cta@2x.png) center center/cover;
+}
+
+.u-link {
+  text-decoration: underline;
+}
+.u-link--orange {
+  color: #F5A623;
 }
 
 /* foundation

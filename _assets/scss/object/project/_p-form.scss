@@ -2,6 +2,7 @@
   &__form-wrap {
     display: flex;
     flex-direction: column;
+    padding-bottom: 8.2rem;
   }
 
   &__message {
@@ -11,16 +12,61 @@
   &__label {
     margin-top: 2rem;
   }
+
   &__input {
     margin-top: 1.2em;
   }
+
   &__select {
     margin-top: 2.4rem;
   }
+
   &__select-label {
     margin-top: 1.8rem;
   }
+
   &__select-label:first-child {
     margin-top: 2rem;
+  }
+
+  &__textarea-label {
+    margin-top: 2.6rem;
+  }
+
+  &__textarea-input {
+    margin-top: 1.2em;
+  }
+
+  &__policy-text {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  &__policy-label {
+    margin-top: 3.3rem;
+    text-align: center;
+  }
+
+  &__submit-button {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  &__thanks {
+    padding-bottom: 8rem;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  &__thanks-message {
+    margin-top: 8.3rem;
+    line-height: 1.7;
+  }
+
+  &__thanks-link {
+    display: inline-block;
+    margin-top: 8.3rem;
   }
 }

@@ -1,0 +1,9 @@
+@use 'foundation/variables'as v;
+
+
+.u-link {
+  text-decoration: underline;
+  &--orange {
+    color: v.$orange;
+  }
+}
