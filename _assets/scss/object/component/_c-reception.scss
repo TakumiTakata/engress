@@ -1,12 +1,16 @@
 .c-reception {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
   &__date {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
   }
 
   &__num {
+    margin-top: .9rem;
     font-size: 1.6rem;
-    margin-bottom: 0;
   }
 
   &__num--icon {

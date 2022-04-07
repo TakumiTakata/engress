@@ -3,18 +3,19 @@
 .c-request-button {
   display: inline-block;
   width: 100%;
-  max-width: 26rem;
   text-align: center;
   font-size: 1.6rem;
   color: #fff;
   background: v.$orange;
 
   &--large {
+    max-width: 26rem;
     height: 6rem;
     line-height: 6rem;
     border-radius: 3rem;
   }
   &--small {
+    max-width: 28rem;
     height: 5rem;
     line-height: 5rem;
     border-radius: 2.5rem;

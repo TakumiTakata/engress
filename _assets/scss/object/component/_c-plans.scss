@@ -14,7 +14,7 @@
   }
 
   &__header {
-    padding: 2.2rem 0;
+    padding: 2.1rem 0;
     background: v.$navy;
   }
 
@@ -59,12 +59,13 @@
   }
 
   &__list-item {
-    padding-top: 2.3rem;
+    padding-top: .5rem;
     font-size: 1.6rem;
+    line-height: 1.9;
   }
 
   &__list-item:first-child {
-    padding-top: 4.8rem;
+    padding-top: 3.8rem;
   }
 
   &__check {

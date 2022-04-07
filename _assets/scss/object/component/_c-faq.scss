@@ -6,11 +6,11 @@
   }
 
   &__contents {
-    margin-top: 3.55rem;
+    margin-top: 2.5rem;
   }
 
   &__hr {
-    margin: 1.4rem 0;
+    margin: 1.6rem 0;
     color: v.$navy;
   }
 
@@ -20,8 +20,8 @@
 
 
   &__q-text {
-    font-size: 1.6rem;
-    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    padding: 1.2rem 0;
   }
 
   &__a-text {
@@ -35,6 +35,7 @@
 
   &__answer {
     background: #F8F8F8;
+    margin-top: 0.8rem;
   }
 
 }

@@ -2,13 +2,12 @@
   &__contents {
     color: #fff;
     background: #1B224C;
-    padding-bottom: 6.8rem;
+    padding-bottom: 6.5rem;
   }
 
   &__inner {
     display: flex;
     justify-content: space-between;
-    margin: 0 13.43vw 0 14.84vw;
   }
 
   /* nav
@@ -26,7 +25,7 @@
   }
 
   &__nav-link {
-    padding-right: 2.15rem;
+    padding-right: 2.1rem;
 
   }
 
@@ -36,7 +35,7 @@
     width: 1px;
     height: 2.3rem;
     background: #fff;
-    margin-right: 2.15rem;
+    margin-right: 2.5rem;
   }
 
   &__nav-item:last-child:after {
@@ -45,8 +44,9 @@
 
   /* content
   ------------------------------*/
-  &__content {
+  &__info {
     text-align: right;
+    margin-right: -1.8rem;
   }
 
   &__home-btn {
@@ -84,8 +84,9 @@
   /* copy write
   ------------------------------*/
   &__cw-text {
-    font-size: 1.2em;
+    margin-right: -1.8rem;
     padding: 1.2rem 0;
-    margin: 0 0 0 auto; // 左寄せ
+    font-size: 1.2em;
+    text-align: right;
   }
 }
