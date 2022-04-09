@@ -6,6 +6,11 @@
     padding-bottom: 6rem;
   }
 
+  &__title {
+    line-height: 1.75;
+    margin-top: 5rem;
+  }
+
   &__date {
     margin-top: 3.6rem;
     font-size: 1.6rem;
@@ -14,7 +19,6 @@
 
   &__img {
     margin-top: 3rem;
-    max-width: 40rem;
   }
 
 
@@ -23,23 +27,26 @@
   }
 
   &__h3 {
-    margin-top: 3.3rem;
+    margin-top: 4.4rem;
   }
 
   &__text {
-    margin-top: 3rem;
+    margin-top: 2.8rem;
   }
 
   &__quote-area {
-    margin-top: 3rem;
+    margin-top: 4.4rem;
   }
 
   &__list {
     margin-top: 3rem;
+    margin-left: 1.4rem;
+    max-width: 58rem;
   }
 
   &__link {
-    margin-top: 3rem;
+    margin-top: 6rem;
+    margin-left: 1.4rem;
   }
 
 }

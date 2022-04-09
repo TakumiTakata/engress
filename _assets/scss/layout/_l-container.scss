@@ -24,8 +24,9 @@
   }
 
   &--2col-side {
-    width: 100%;
-    max-width: 26.9rem;
+    // width: 100%;
+    // max-width: 26.9rem;
+    flex: 1;
   }
 
 }

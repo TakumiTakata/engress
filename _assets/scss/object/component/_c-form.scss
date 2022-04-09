@@ -20,7 +20,7 @@
 
   &__str-input {
     font-size: 1.2rem;
-    padding: 1.9rem 2rem;
+    padding: 1.5rem 2rem;
     border: .05rem solid v.$navy;
   }
 
@@ -30,9 +30,14 @@
   }
 
   &__textarea {
-    padding: 2.2rem;
+    height: 24rem;
+    padding: 1.4rem 2.2rem;
     font-size: 1.2em;
     border: .05rem solid v.$navy;
+    position: relative;
+  }
+  &__textarea::placeholder {
+    position: absolute;
   }
 
   &__policy-text {

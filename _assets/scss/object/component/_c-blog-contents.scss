@@ -1,18 +1,16 @@
 @use 'foundation/variables'as v;
 
 .c-blog-contents {
-  margin-top: 6rem;
 
   &__tag {
     display: inline-block;
-    padding: 1rem 2.5rem;
+    padding: .9rem 2.3rem;
     font-size: 1.2rem;
     color: #fff;
     background: v.$navy;
   }
 
   &__title {
-    line-height: 1.7;
     font-size: 2.8rem;
     font-weight: bold;
   }
@@ -24,9 +22,9 @@
   }
 
   &__h3 {
-    margin-top: 3.3rem;
-    padding-left: 0.4rem;
+    padding-left: 1rem;
     border-left: .4rem solid v.$navy;
+    line-height: 1.3;
     font-size: 2.2rem;
     font-weight: bold;
   }
@@ -66,16 +64,32 @@
   }
 
   &__img {
-    margin-top: 2.2rem;
+    width: 100%;
+    height: 0;
+    position: relative;
+  }
+
+  &__img--main {
+    padding-bottom: 37rem;
+  }
+  &__img--sub {
+    padding-bottom: 33.5rem;
+  }
+  &__img--single {
+    max-width: 40rem;
+    padding-bottom: 25rem;
   }
 
   &__img img {
+    position: absolute;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   &__text {
-    margin-top: 3rem;
     font-size: 1.6rem;
+    line-height: 1.5;
   }
 
   &__quote-area {
@@ -92,6 +106,7 @@
 
   &__quote-text {
     font-size: 1.6rem;
+    line-height: 1.5;
   }
 
   &__list {
@@ -118,8 +133,11 @@
   &__link {
     display: inline-block;
     margin-top: 3rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: v.$orange;
     text-decoration: underline;
+  }
+  &__link--single {
+    font-size: 1.6rem;
   }
 }

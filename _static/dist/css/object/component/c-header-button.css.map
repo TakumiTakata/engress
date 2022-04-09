@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["object/component/c-header-button.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA","file":"object/component/c-header-button.css","sourcesContent":[".c-header-button {\n  font-size: 1.4rem;\n  color: #fff;\n  border-radius: .5rem;\n  &--request {\n\n  }\n  &--inpuiry {\n\n  }\n}\n"]}
