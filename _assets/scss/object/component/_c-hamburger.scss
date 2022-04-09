@@ -1,0 +1,56 @@
+@use 'foundation/variables'as v;
+@use 'foundation/mixin'as *;
+
+.c-hamburger {
+  &__button {
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+
+  }
+
+  /*ボタン内側*/
+  &__bar {
+    display: inline-block;
+    transition: all .4s;
+    position: absolute;
+    left: 14px;
+    height: 3px;
+    border-radius: 2px;
+    background: v.$navy;
+    width: 45%;
+  }
+
+  &__bar--1st {
+    top: 15px;
+  }
+
+  &__bar--2nd {
+    top: 23px;
+  }
+
+  &__bar--3rd {
+    top: 31px;
+  }
+
+  &__bar--1st.active {
+    top: 18px;
+    left: 18px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 30%;
+  }
+
+  &__bar--2nd.active {
+    opacity: 0;
+  }
+
+  &__bar--3rd.active {
+    top: 30px;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 30%;
+  }
+
+}

@@ -1,9 +1,17 @@
+@use 'mixin' as *;
+
 html {
   color: #1B224C;
 
-  // font-size: 10px; // 1280~ pc
-  font-size: calc(10 / 1280 * 100vw); // 800 ~ 1280
-  // font-size: 10px; // ~800 sp
+  @include mq('pc') {
+    font-size: 10px;
+  }
+  @include mq('tb') {
+    font-size: calc(10 / 1280 * 100vw);
+  }
+  @include mq('sp') {
+    font-size: 10px;
+  }
 
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }

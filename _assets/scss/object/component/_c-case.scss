@@ -1,4 +1,5 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin' as *;
 
 .c-case {
   &__title {
@@ -8,6 +9,9 @@
   &__card-wrap {
     display: flex;
     margin-top: 12.7rem;
+    @include mq('sp') {
+      display: block;
+    }
   }
 
   &__card {

@@ -1,7 +1,7 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin' as *;
 
 .p-home {
-
   &__main-view {
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     padding-bottom: 8.6rem;
     text-align: center;
     color: #fff;
-    background: url('../img/fv@2x.png') center center / cover;
+    background: url('../img/fv.jpg') center center / cover;
   }
 
   &__catch-copy {
