@@ -1002,7 +1002,7 @@ img {
 }
 
 .c-hamburger {
-  /*ボタン内側*/
+  z-index: 1;
 }
 .c-hamburger__button {
   position: relative;
@@ -1010,6 +1010,9 @@ img {
   width: 50px;
   height: 50px;
   border-radius: 5px;
+  margin-right: 2rem;
+  margin-left: auto;
+  z-index: 2;
 }
 .c-hamburger__bar {
   display: inline-block;
@@ -1030,20 +1033,39 @@ img {
 .c-hamburger__bar--3rd {
   top: 31px;
 }
-.c-hamburger__bar--1st.active {
+.c-hamburger__button.active .c-hamburger__bar--1st {
   top: 18px;
   left: 18px;
   transform: translateY(6px) rotate(-45deg);
-  width: 30%;
+  background: #fff;
 }
-.c-hamburger__bar--2nd.active {
+.c-hamburger__button.active .c-hamburger__bar--2nd {
   opacity: 0;
 }
-.c-hamburger__bar--3rd.active {
+.c-hamburger__button.active .c-hamburger__bar--3rd {
   top: 30px;
   left: 18px;
   transform: translateY(-6px) rotate(45deg);
-  width: 30%;
+  background: #fff;
+}
+.c-hamburger__contents {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transform: translateX(100%);
+  background: rgba(0, 0, 0, 0.8);
+  transition: ease 0.4s;
+}
+.c-hamburger__contents.active {
+  transform: translateX(0);
+}
+.c-hamburger__inner {
+  margin: 0 2rem;
+}
+.c-hamburger__menu {
+  color: #fff;
 }
 
 .c-main-view__title {
