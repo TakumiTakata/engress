@@ -1,4 +1,5 @@
 @use 'foundation/variables' as v;
+@use 'foundation/mixin'as *;
 
 .c-request-button {
   display: inline-block;
@@ -7,17 +8,31 @@
   font-size: 1.6rem;
   color: #fff;
   background: v.$orange;
-
-  &--large {
+@include mq('sp') {
+  font-size: 1.4rem;
+}
+  &--top {
     max-width: 26rem;
     height: 6rem;
     line-height: 6rem;
     border-radius: 3rem;
+    @include mq('sp') {
+      max-width: 22rem;
+      height: 5rem;
+      line-height: 5rem;
+      border-radius: 2.5rem;
+    }
   }
-  &--small {
+  &--footer {
     max-width: 28rem;
     height: 5rem;
     line-height: 5rem;
     border-radius: 2.5rem;
+    @include mq('sp') {
+      max-width: 22rem;
+      height: 4rem;
+      line-height: 4rem;
+      border-radius: 2rem;
+    }
   }
 }

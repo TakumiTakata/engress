@@ -1,8 +1,18 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin'as *;
 
 .c-news {
+  @include mq('sp') {
+    padding-bottom: 4rem;
+  }
   &__inner {
     margin-left: 6.7rem;
+    @include mq('sp') {
+      margin-left: 0;
+      margin-top: 5rem;
+      padding: 1rem;
+      background: #f9f9f9;
+    }
   }
 
   &__title {
@@ -20,12 +30,19 @@
   &__date {
     margin-bottom: 1.5rem;
     font-size: 1.2rem;
+    @include mq('sp') {
+      padding: 1rem 0;
+      margin-bottom: 0;
+    }
   }
 
   &__description {
     padding-bottom: 4.3rem;
     font-size: 1.6rem;
     text-decoration: underline;
+    @include mq('sp') {
+      padding: 1rem 0;
+    }
   }
 
 }

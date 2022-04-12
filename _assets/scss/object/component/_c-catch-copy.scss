@@ -1,4 +1,5 @@
 @use 'foundation/variables' as v;
+@use 'foundation/mixin'as *;
 
 .c-catch-copy {
   &__title {
@@ -12,11 +13,19 @@
     margin-top: 4.7rem;
     font-size: 1.8rem;
     color: #fff;
+    @include mq('sp') {
+      display: block;
+    }
   }
 
   &__text {
     line-height: 2.2;
     margin-right: 5.7rem;
+    @include mq('sp') {
+      margin-right: 0;
+      margin-top: 2rem;
+      line-height: 1.75;
+    }
   }
   &__text:last-child {
     margin-right: 0;
@@ -27,18 +36,25 @@
     margin-top: 7.1rem;
     margin-bottom: 5.4rem;
     padding: 1.2rem 1.6rem;
+    @include mq('sp') {
+      padding: .6rem  .9rem;
+    }
   }
 
   &__answer-inner {
     border: .5rem solid v.$navy;
     padding-bottom: 2.4rem;
+    @include mq('sp') {
+      padding: 0 1rem 2rem;
+      border-width: .4rem;
+    }
   }
 
   &__answer-title {
     margin-top: .8rem;
-    font-size: 3.6rem;
-    font-weight: bold;
     line-height: 1.4;
+    @include mq('sp') {
+    }
   }
 
   &__answer-title span {
@@ -49,5 +65,9 @@
     margin-top: 2rem;
     font-size: 1.8rem;
     line-height: 1.7;
+    @include mq('sp') {
+      font-size: 1.4rem;
+      line-height: 1.5;
+    }
   }
 }

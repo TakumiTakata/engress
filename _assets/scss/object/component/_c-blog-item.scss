@@ -1,8 +1,12 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin'as *;
 
 .c-blog-item {
   &__link {
     display: flex;
+    @include mq('sp') {
+      display: block;
+    }
   }
 
   &__link:hover {

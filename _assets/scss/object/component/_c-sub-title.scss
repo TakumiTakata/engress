@@ -1,9 +1,12 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin'as *;
 
 .c-sub-title {
   font-size: 3.6rem;
   font-weight: 600;
-
+@include mq('sp') {
+  font-size: 2.4rem;
+}
   &--center {
     text-align: center;
   }

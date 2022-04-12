@@ -10,6 +10,10 @@
     text-align: center;
     color: #fff;
     background: url('../img/fv.jpg') center center / cover;
+    @include mq('sp') {
+      height: calc(100vh - 6rem);
+      justify-content: center;
+    }
   }
 
   &__catch-copy {
@@ -39,5 +43,9 @@
   &__archives {
     display: flex;
     padding-bottom: 9rem;
+    @include mq('sp') {
+      display: block;
+      padding-bottom: 0;
+    }
   }
 }

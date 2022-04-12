@@ -1,14 +1,23 @@
+@use 'foundation/mixin'as *;
+
 .c-main-view {
   &__title {
     margin-top: 11.4rem;
     font-size: 4.8rem;
     font-weight: bold;
+    @include mq('sp') {
+      font-size: 3.6rem;
+    }
   }
 
   &__text {
     margin-top: 1.5rem;
     line-height: 1.72;
     font-size: 1.8rem;
+    @include mq('sp') {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+    }
   }
 
   &__btn {

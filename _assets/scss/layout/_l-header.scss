@@ -16,6 +16,9 @@
     height: 8rem;
     padding: 15px 0;
     margin: 0 auto;
+    @include mq('sp') {
+      height: 6rem;
+    }
   }
 
   /* logo */
@@ -25,11 +28,6 @@
   }
 
   /* nav */
-  &__nav {
-    @include mq('sp') {
-      display: none;
-    }
-  }
   &__nav--list {
     display: flex;
     font-size: 1.6rem;
@@ -44,16 +42,16 @@
     margin-left: auto;
     margin-right: 2.3rem;
     text-align: right;
-    @include mq('sp') {
-      display: none;
-    }
   }
 
   /* button */
   &__button {
     margin-right: 1rem;
-    @include mq('sp') {
-      display: none;
-    }
+  }
+
+  /*hamburger*/
+  &__hamburger {
+    margin-right: 2rem;
+margin-left: auto;
   }
 }

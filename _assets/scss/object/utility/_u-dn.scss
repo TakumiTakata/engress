@@ -1,0 +1,19 @@
+@use 'foundation/mixin'as *;
+
+.u-dn {
+  @include mq('pc') {
+    &--pc {
+      display: none;
+    }
+  }
+  @include mq('tb') {
+    &--tb {
+      display: none;
+    }
+  }
+  @include mq('sp') {
+    &--sp {
+      display: none;
+    }
+  }
+}

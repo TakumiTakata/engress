@@ -1,8 +1,14 @@
+@use 'foundation/mixin'as *;
+
 .l-container {
   &--1col {
     width: 100%;
     max-width: 90rem;
     margin: 0 auto;
+    @include mq('sp') {
+      max-width: 60rem;
+      padding: 0 1.2rem;
+    }
   }
 
   &--form {
@@ -24,8 +30,6 @@
   }
 
   &--2col-side {
-    // width: 100%;
-    // max-width: 26.9rem;
     flex: 1;
   }
 

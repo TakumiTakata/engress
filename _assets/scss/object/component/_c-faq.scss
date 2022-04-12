@@ -29,6 +29,10 @@
     padding: 2.3rem 2.6rem;
   }
 
+  &__question {
+    cursor: pointer;
+  }
+
   &__question:hover {
     background: #eee;
   }
