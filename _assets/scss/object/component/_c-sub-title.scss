@@ -21,5 +21,8 @@
 
   &--small {
     font-size: 3.2rem;
+    @include mq('sp') {
+font-size: 2.2rem;
+    }
   }
 }

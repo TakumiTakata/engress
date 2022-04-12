@@ -1,4 +1,5 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin'as *;
 
 .c-plans {
   &__cards {
@@ -6,26 +7,49 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+
+    @include mq('sp') {
+      overflow-x: scroll;
+      margin-top: 4rem;
+    }
   }
 
   &__card {
-    width: 22rem;
+    width: 100%;
+    max-width: 22rem;
     text-align: center;
+
+    @include mq('sp') {
+      min-width: 20rem;
+      margin-right: 0.4rem;
+    }
   }
 
   &__header {
     padding: 2.1rem 0;
     background: v.$navy;
+
+    @include mq('sp') {
+      padding: 1.4rem 0;
+    }
   }
 
   &__header-txt {
     font-size: 1.6rem;
     color: #fff;
     font-weight: bold;
+
+    @include mq('sp') {
+      font-size: 1.5rem;
+    }
   }
 
   &__header-txt:nth-child(2) {
     margin-top: 2rem;
+
+    @include mq('sp') {
+      margin-top: 1rem;
+    }
   }
 
   &__header--rec {
@@ -34,34 +58,56 @@
     font-size: 1.6rem;
     color: #fff;
     font-weight: bold;
+
+    @include mq('sp') {
+      padding: 1.4rem 0;
+    }
   }
 
   &__body {
-    height: 41.4rem;
+    height: 100%;
+    max-height: 41.4rem;
     border: .1rem solid v.$navy;
     border-top: none;
     padding: 0 2rem;
+    @include mq('sp') {
+      height: 36rem;
+      padding: 0 1rem;
+    }
   }
 
   &__price {
     padding-top: 3rem;
     font-size: 2.5rem;
+
+    @include mq('sp') {
+      padding-top: 2rem;
+      font-size: 2.4rem;
+    }
   }
+
   &__price--rec {
-    padding-top: 3rem;
-    font-size: 2.5rem;
     color: v.$orange;
   }
 
   &__attention {
     padding-top: 1.4rem;
     font-size: 1.6rem;
+    @include mq('sp') {
+      padding-top: 1rem;
+      font-size: 1.4rem;
+    }
   }
 
   &__list-item {
     padding-top: .5rem;
     font-size: 1.6rem;
     line-height: 1.9;
+    @include mq('sp') {
+      font-size: 1.4rem;
+      line-height: 1.5;
+      padding-top: 1rem;
+    }
   }
 
   &__list-item:first-child {

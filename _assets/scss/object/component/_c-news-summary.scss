@@ -1,8 +1,11 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin' as *;
 
 .c-news-summary {
   padding-bottom: 4.6rem;
-
+@include mq('sp') {
+  padding-bottom: 3rem;
+}
   &__title {
     margin-top: 5.6rem;
   }
@@ -18,11 +21,17 @@
   &__item {
     margin: 2.24rem 0;
     display: flex;
+    @include mq('sp') {
+      display: block;
+    }
   }
 
   &__date {
     margin-right: 5.1rem;
     font-size: 1.6rem;
+    @include mq('sp') {
+      font-size: 1.3rem;
+    }
   }
 
   &__description {
@@ -32,5 +41,9 @@
     white-space: nowrap; // 折り返しさせない
     overflow: hidden;
     text-overflow: ellipsis; // 末尾を...に
+    @include mq('sp') {
+      font-size: 1.4rem;
+      margin-top: .6rem;
+    }
   }
 }

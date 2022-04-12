@@ -1,4 +1,5 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin' as *;
 
 .c-blog-contents {
 
@@ -8,17 +9,26 @@
     font-size: 1.2rem;
     color: #fff;
     background: v.$navy;
+    @include mq('sp') {
+      padding: 0.7em 1.8rem;
+    }
   }
 
   &__title {
     font-size: 2.8rem;
     font-weight: bold;
+    @include mq('sp') {
+      font-size: 2.2rem;
+    }
   }
 
   &__h2 {
     margin-top: 4rem;
     font-size: 2.6rem;
     font-weight: bold;
+    @include mq('sp') {
+      font-size: 2rem;
+    }
   }
 
   &__h3 {
@@ -27,11 +37,18 @@
     line-height: 1.3;
     font-size: 2.2rem;
     font-weight: bold;
+    @include mq('sp') {
+      font-size: 1.8rem;
+      line-height: 1.2;
+    }
   }
 
   &__data-wrap {
     display: flex;
     margin-top: 2.5rem;
+    @include mq('sp') {
+      margin-top: 2rem;
+    }
   }
 
   &__share-list {
@@ -61,6 +78,9 @@
     margin-right: 0;
     margin-left: auto;
     font-size: 1.6rem;
+    @include mq('sp') {
+      font-size: 1.4rem;
+    }
   }
 
   &__img {
@@ -71,13 +91,22 @@
 
   &__img--main {
     padding-bottom: 37rem;
+    @include mq('sp') {
+      padding-bottom: 62%;
+    }
   }
   &__img--sub {
     padding-bottom: 33.5rem;
+    @include mq('sp') {
+      padding-bottom: 57%;
+    }
   }
   &__img--single {
     max-width: 40rem;
     padding-bottom: 25rem;
+    @include mq('sp') {
+      padding-bottom: 62.5%;
+    }
   }
 
   &__img img {
@@ -90,6 +119,10 @@
   &__text {
     font-size: 1.6rem;
     line-height: 1.5;
+    @include mq('sp') {
+      font-size: 1.4rem;
+      line-height: 1.4;
+    }
   }
 
   &__quote-area {
@@ -97,20 +130,33 @@
     padding: 2.6rem;
     background: #F8F8F8;
     display: flex;
+    @include mq('sp') {
+      padding: 2rem;
+    }
   }
 
   &__quote-icon {
     max-width: 4.6rem;
     width: 100%;
+    @include mq('sp') {
+      max-width: 3rem;
+    }
   }
 
   &__quote-text {
     font-size: 1.6rem;
     line-height: 1.5;
+    @include mq('sp') {
+      font-size: 1.4rem;
+      line-height: 1.4;
+    }
   }
 
   &__list {
     margin-top: 3rem;
+    @include mq('sp') {
+      margin-top: 2.4rem;
+    }
   }
 
   &__list-item {
@@ -118,6 +164,9 @@
     line-height: 2.4rem;
     margin-left: 3.2rem; // (before size + margin-right)
     text-indent: -3.2rem;
+    @include mq('sp') {
+      font-size: 1.4rem;
+    }
   }
 
   &__list-item::before {
@@ -128,6 +177,10 @@
     margin-right: 2.1rem;
     border-radius: 50%;
     background: v.$orange;
+    @include mq('sp') {
+      width: 0.8rem;
+      height: 0.8rem;
+    }
   }
 
   &__link {
@@ -136,8 +189,14 @@
     font-size: 1.8rem;
     color: v.$orange;
     text-decoration: underline;
+    @include mq('sp') {
+      font-size: 1.4rem;
+    }
   }
   &__link--single {
     font-size: 1.6rem;
+    @include mq('sp') {
+      font-size: 1.2rem;
+    }
   }
 }

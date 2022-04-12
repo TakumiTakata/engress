@@ -1,7 +1,11 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin' as *;
 
 .c-relation {
   margin-top: 6rem;
+  @include mq('sp') {
+    margin-top: 4rem;
+  }
 
   &__title {
     font-size: 2.1rem;
@@ -9,11 +13,17 @@
     padding: 1.9rem 0;
     color: #fff;
     background: v.$navy;
+    @include mq('sp') {
+      font-size: 1.8rem;
+    }
   }
 
   &__item {
     margin-top: 4rem;
     display: flex;
+    @include mq('sp') {
+      margin-top: 3rem;
+    }
   }
   &__item:first-child {
     margin-top: 3rem;
@@ -38,13 +48,20 @@
 
   &__category {
     margin-top: 3.2rem;
+    @include mq('sp') {
+      padding-bottom: 3rem;
+    }
   }
 
   &__category-item {
     margin-top: 1.4rem;
     font-size: 1.6rem;
     font-weight: bold;
-    // list-style: inside;
+    @include mq('sp') {
+      margin-top: 1rem;
+      font-size: 1.4rem;
+      font-weight: normal;
+    }
   }
   &__category-item::before {
     content: "・";

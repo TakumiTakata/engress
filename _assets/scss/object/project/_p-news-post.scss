@@ -1,20 +1,31 @@
+@use 'foundation/mixin' as *;
+
 .p-news-post {
 
   /* contents
   ----------------------------*/
   &__contents {
     padding-bottom: 6rem;
+    @include mq('sp') {
+      padding-bottom: 4rem;
+    }
   }
 
   &__title {
     line-height: 1.75;
     margin-top: 5rem;
+    @include mq('sp') {
+      line-height: 1.5;
+    }
   }
 
   &__date {
     margin-top: 3.6rem;
     font-size: 1.6rem;
     text-align: right;
+    @include mq('sp') {
+      font-size: 1.4rem;
+    }
   }
 
   &__img {

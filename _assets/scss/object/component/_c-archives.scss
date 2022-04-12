@@ -1,16 +1,26 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin' as *;
 
 .c-archives {
   &__title {
     margin-top: 5.5rem;
+    @include mq('sp') {
+      margin-top: 4rem;
+    }
   }
 
   &__list {
     margin-top: 6rem;
+    @include mq('sp') {
+      margin-top: 4rem;
+    }
   }
 
   &__item {
     margin-top: 6.1rem;
+    @include mq('sp') {
+      margin-top: 3rem;
+    }
   }
   &__item:first-child {
     margin-top: 0;
@@ -18,6 +28,9 @@
 
   &__item:nth-child(2) {
     margin-top: 9.3rem;
+    @include mq('sp') {
+      margin-top: inherit;
+    }
   }
 
   &__img-box {
@@ -25,15 +38,31 @@
     max-width: 24rem;
     margin-right: 5rem;
     min-height: 14.8rem;
+    position: relative;
+    @include mq('sp') {
+      margin: 0 auto;
+      max-width: none;
+    }
   }
-
+  &__img-box img {
+    @include mq('sp') {
+      object-fit: cover;
+    }
+  }
   &__tag {
     padding: 0.8rem 1.3rem;
     font-size: 1.2rem;
+    @include mq('sp') {
+      padding: 0.6rem 1rem;
+      font-size: 1.1rem;
+    }
   }
 
   &__date {
     font-size: 1.6rem;
+    @include mq('sp') {
+      font-size: 1.2rem;
+    }
   }
 
   &__item-title {
@@ -42,11 +71,19 @@
     font-weight: bold;
     line-height: 1.5;
     text-decoration: underline .2rem v.$navy;
+    @include mq('sp') {
+      font-size: 2rem;
+
+    }
   }
 
   &__description {
     margin-top: 2rem;
     font-size: 1.6rem;
     line-height: 1.5;
+    @include mq('sp') {
+      font-size: 1.4rem;
+      line-height: 1.3;
+    }
   }
 }

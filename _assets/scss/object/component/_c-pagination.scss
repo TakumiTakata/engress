@@ -1,5 +1,12 @@
+@use 'foundation/mixin'as *;
+
 .c-pagination {
   margin-top: 10.9rem;
   text-align: center;
   font-size: 2rem;
+
+  @include mq('sp') {
+    margin-top: 6rem;
+    font-size: 1.6em;
+  }
 }

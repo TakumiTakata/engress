@@ -1,9 +1,14 @@
 @use 'foundation/variables'as v;
+@use 'foundation/mixin' as *;
 
 .c-form {
   &__text {
     font-size: 1.6rem;
     line-height: 1.68;
+    @include mq('sp') {
+      font-size: 1.4em;
+      line-height: 1.5;
+    }
   }
 
   &__text--bold {
@@ -16,12 +21,16 @@
 
   &__label {
     font-size: 1.6rem;
+    @include mq('sp') {
+      font-size: 1.4em;
+    }
   }
 
   &__str-input {
     font-size: 1.2rem;
     padding: 1.5rem 2rem;
     border: .05rem solid v.$navy;
+
   }
 
   &__select-input {
@@ -35,6 +44,9 @@
     font-size: 1.2em;
     border: .05rem solid v.$navy;
     position: relative;
+    @include mq('sp') {
+      height: 18rem;
+    }
   }
   &__textarea::placeholder {
     position: absolute;
@@ -42,15 +54,25 @@
 
   &__policy-text {
     font-size: 1.6rem;
+    @include mq('sp') {
+      font-size: 1.4rem;
+    }
   }
 
   &__policy-label {
     font-size: 1.6rem;
+    @include mq('sp') {
+      font-size: 1.4rem;
+    }
   }
 
   &__policy-input {
     width: 2rem;
     height: 2rem;
+    @include mq('sp') {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
   }
 
   &__submit-text {
@@ -59,6 +81,9 @@
     color: #fff;
     border-radius: .5rem;
     background: v.$navy;
-
+    @include mq('sp') {
+      padding: 1.2rem 5rem;
+      font-size: 1.4rem;
+    }
   }
 }

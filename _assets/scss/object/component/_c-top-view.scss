@@ -1,10 +1,19 @@
+@use 'foundation/mixin'as *;
+
 .c-top-view {
   padding: 9.3rem 0;
-
+@include mq('sp') {
+  padding: 6rem 0;
+}
   &__title {
     font-size: 3.2rem;
     color: #fff;
     font-weight: bold;
     text-align: center;
+
+    @include mq('sp') {
+      font-size: 2.7rem;
+      font-weight: 500;
+    }
   }
 }

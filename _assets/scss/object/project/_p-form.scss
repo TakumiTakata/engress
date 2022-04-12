@@ -1,23 +1,38 @@
+@use 'foundation/mixin'as *;
+
 .p-form {
   &__form-wrap {
     display: flex;
     flex-direction: column;
     padding-bottom: 8.2rem;
+
+    @include mq('sp') {
+      padding-bottom: 6rem;
+    }
   }
 
   &__message {
     margin-top: 5.4rem;
+
+    @include mq('sp') {
+      margin-top: 4rem;
+    }
   }
 
   &__label {
     margin-top: 2rem;
   }
+
   &__label:first-of-type {
     margin-top: 4.4rem;
   }
 
   &__input {
     margin-top: 1.2em;
+
+    @include mq('sp') {
+      margin-top: 1rem;
+    }
   }
 
   &__select {
@@ -26,7 +41,12 @@
 
   &__select-label {
     margin-top: 1.3rem;
+
+    @include mq('sp') {
+      margin-top: 1rem;
+    }
   }
+
   &__select-input {
     margin-right: 1.6rem;
   }
@@ -41,6 +61,10 @@
 
   &__textarea-input {
     margin-top: 1.2em;
+
+    @include mq('sp') {
+      margin-top: 1rem;
+    }
   }
 
   &__policy-text {
@@ -59,20 +83,30 @@
     justify-content: center;
   }
 
-
+  /* thanks --------------------------*/
   &__thanks {
     padding-bottom: 8rem;
     text-align: center;
     font-size: 1.6rem;
+    @include mq('sp') {
+      padding-bottom: 4rem;
+      font-size: 1.4rem;
+    }
   }
 
   &__thanks-message {
     margin-top: 7.8rem;
     line-height: 1.7;
+    @include mq('sp') {
+      margin-top: 5rem;
+    }
   }
 
   &__thanks-link {
     display: inline-block;
     margin-top: 8.5rem;
+    @include mq('sp') {
+      margin-top: 6rem;
+    }
   }
 }
