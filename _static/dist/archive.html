@@ -47,7 +47,7 @@
   </div>
 
   <main>
-  <article>
+    <article>
 
       <section class="p-archives c-archives">
         <h2 class="c-archives__title c-sub-title c-sub-title--small  c-sub-title--center">新着一覧</h2>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="c-archives__contents c-blog-item__contents">
                   <p class="c-archives__date">2020-12-01</p>
-                  <p class="c-archives__item-title">ブログタイトルテキストテキストテキストテキスト</p>
+                  <p class="c-archives__item-title">ブログタイトルテキストテキストテキストテキストブログタイトルテキストテキストテキストテキストブログタイトルテキストテキストテキストテキストブログタイトルテキストテキストテキストテキストブログタイトルテキストテキストテキストテキストブログタイトルテキストテキストテキストテキスト</p>
                   <p class="c-archives__description">記事の冒頭文テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
               </a>
@@ -185,11 +185,21 @@
               </a>
             </li>
           </ul>
-          <div class="c-pagination">1 2 ... 3</div>
+          <nav class="c-pagination pagination" role="navigation">
+            <h2 class="screen-reader-text">投稿ナビゲーション</h2>
+            <ul class="page-numbers">
+              <li><span aria-current="page" class="page-numbers current">1</span></li>
+              <li><a class="page-numbers" href="http://localhost:10019/blog/page/2/">2</a></li>
+              <li><a class="page-numbers" href="http://localhost:10019/blog/page/3/">3</a></li>
+              <li><span class="page-numbers dots">…</span></li>
+              <li><a class="page-numbers" href="http://localhost:10019/blog/page/5/">5</a></li>
+            </ul>
+
+          </nav>
         </div>
 
       </section>
-  </article>
+    </article>
   </main>
 
 

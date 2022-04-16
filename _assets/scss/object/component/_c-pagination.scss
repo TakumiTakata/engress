@@ -1,12 +1,39 @@
+@use 'foundation/variables'as v;
 @use 'foundation/mixin'as *;
 
 .c-pagination {
   margin-top: 10.9rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
 
   @include mq('sp') {
     margin-top: 6rem;
-    font-size: 1.6em;
+  }
+
+  & ul {
+    display: flex;
+    justify-content: center;
+  }
+  & li {
+    margin-right: 1.9rem;
+  }
+  & li:last-child {
+    margin-right: 0;
+  }
+  & li .page-numbers {
+    display: inline-block;
+    min-width: 100%;
+    width: 5rem;
+    min-height: 100%;
+    height: 5rem;
+    border: 1px solid v.$navy;
+    line-height: 5rem;
+  }
+  & li .page-numbers.current {
+    background: v.$navy;
+    color: #fff;
+  }
+  & li .page-numbers.dots {
+    border: none;
   }
 }

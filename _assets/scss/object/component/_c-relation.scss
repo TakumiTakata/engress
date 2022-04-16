@@ -1,8 +1,9 @@
 @use 'foundation/variables'as v;
-@use 'foundation/mixin' as *;
+@use 'foundation/mixin'as *;
 
 .c-relation {
   margin-top: 6rem;
+
   @include mq('sp') {
     margin-top: 4rem;
   }
@@ -13,6 +14,7 @@
     padding: 1.9rem 0;
     color: #fff;
     background: v.$navy;
+
     @include mq('sp') {
       font-size: 1.8rem;
     }
@@ -21,10 +23,12 @@
   &__item {
     margin-top: 4rem;
     display: flex;
+
     @include mq('sp') {
       margin-top: 3rem;
     }
   }
+
   &__item:first-child {
     margin-top: 3rem;
   }
@@ -33,10 +37,18 @@
   &__img {
     width: 100%;
     max-width: 10rem;
-    height: 100%;
-    min-height: 7rem;
+    height: 0;
+    padding-bottom: 7rem;
     margin-right: 1.7rem;
     background: #d5d5d5;
+    position: relative;
+  }
+
+  &__img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   &__blog-title {
@@ -44,10 +56,16 @@
     line-height: 2;
     margin-top: -0.4rem;
     text-decoration: underline;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    flex: 1;
   }
 
   &__category {
     margin-top: 3.2rem;
+
     @include mq('sp') {
       padding-bottom: 3rem;
     }
@@ -57,12 +75,14 @@
     margin-top: 1.4rem;
     font-size: 1.6rem;
     font-weight: bold;
+
     @include mq('sp') {
       margin-top: 1rem;
       font-size: 1.4rem;
       font-weight: normal;
     }
   }
+
   &__category-item::before {
     content: "・";
     display: inline;

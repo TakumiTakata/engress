@@ -4,6 +4,6 @@ $(".js-ham-button").click(function () {
 });
 
 $(".js-question").click(function() {
-  $(this).next(".js-answer").addClass('test');
+  $(this).children().toggleClass('active');
   $(this).next(".js-answer").fadeToggle();
 });

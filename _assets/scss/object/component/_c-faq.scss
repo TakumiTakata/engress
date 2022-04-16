@@ -22,6 +22,34 @@
   &__q-text {
     font-size: 1.5rem;
     padding: 1.2rem 0;
+    position: relative;
+  }
+
+  &__q-text::before,
+  &__q-text::after {
+    content: '';
+    display: block;
+    width: 2.5rem;
+    height: 0.3rem;
+    background: v.$navy;
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+  }
+
+  &__q-text::after {
+    transform: translateY(-50%) rotate(90deg);
+    transition: .5s;
+  }
+  &__q-text.active::before {
+    opacity: 0;
+    transition: .5s;
+  }
+
+  &__q-text.active::after {
+    transform: rotate(0);
+    transition: .5s;
   }
 
   &__a-text {

@@ -16,6 +16,7 @@
   }
 
   &__card {
+    flex: 1;
     margin-right: 3.1rem;
     @include mq('sp') {
       max-width: 40rem;
