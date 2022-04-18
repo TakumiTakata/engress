@@ -419,7 +419,6 @@ html {
 
 body {
   width: 100%;
-  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -441,6 +440,7 @@ img {
 .c-reception__num {
   margin-top: 0.9rem;
   font-size: 1.6rem;
+  font-weight: bold;
 }
 .c-reception__num--icon {
   display: inline-block;
@@ -613,6 +613,7 @@ img {
   }
 }
 .c-bread-crump__link span {
+  display: inline-block;
   max-width: 20rem;
   vertical-align: middle;
   overflow: hidden;
@@ -650,9 +651,10 @@ img {
   width: 100%;
   max-width: 29rem;
   padding: 3.3rem 0;
-  font-size: 2.2rem;
-  color: #fff;
   text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #fff;
   background: #1B224C;
 }
 @media screen and (max-width: 799px) {
@@ -931,10 +933,12 @@ img {
   margin-top: 10.9rem;
   text-align: center;
   font-size: 1.6rem;
+  font-weight: bold;
 }
 @media screen and (max-width: 799px) {
   .c-pagination {
     margin-top: 6rem;
+    font-size: 1.4rem;
   }
 }
 .c-pagination ul {
@@ -943,6 +947,11 @@ img {
 }
 .c-pagination li {
   margin-right: 1.9rem;
+}
+@media screen and (max-width: 799px) {
+  .c-pagination li {
+    margin-right: 1.2rem;
+  }
 }
 .c-pagination li:last-child {
   margin-right: 0;
@@ -955,6 +964,13 @@ img {
   height: 5rem;
   border: 1px solid #1B224C;
   line-height: 5rem;
+}
+@media screen and (max-width: 799px) {
+  .c-pagination li .page-numbers {
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+  }
 }
 .c-pagination li .page-numbers.current {
   background: #1B224C;
@@ -1025,6 +1041,7 @@ img {
   padding: 0.5rem 0.8rem;
   border-radius: 0.3rem;
   color: #fff;
+  font-weight: 600;
 }
 .c-blog-contents__share-icon {
   margin-right: 0.4rem;
@@ -1261,9 +1278,10 @@ img {
   }
 }
 .c-relation__title {
-  font-size: 2.1rem;
-  text-align: center;
   padding: 1.9rem 0;
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 600;
   color: #fff;
   background: #1B224C;
 }
@@ -1569,7 +1587,7 @@ img {
 .c-main-view__title {
   margin-top: 11.4rem;
   font-size: 4.8rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 @media screen and (max-width: 799px) {
   .c-main-view__title {
@@ -1742,6 +1760,7 @@ img {
   margin-top: 2.9rem;
   font-size: 2.6rem;
   line-height: 1.5;
+  font-weight: 600;
 }
 @media screen and (max-width: 799px) {
   .c-concept__item-ttl {
@@ -1784,10 +1803,10 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
 }
 @media screen and (max-width: 799px) {
   .c-concept__img img {
-    height: 100%;
     object-fit: cover;
     opacity: 0.4;
     z-index: 1;
@@ -1810,6 +1829,7 @@ img {
 }
 .c-concept__plan-ttl {
   font-size: 2.6rem;
+  font-weight: 600;
 }
 @media screen and (max-width: 799px) {
   .c-concept__plan-ttl {
@@ -2046,6 +2066,7 @@ img {
   font-size: 1.5rem;
   padding: 1.2rem 0;
   position: relative;
+  padding-right: 5rem;
 }
 .c-faq__q-text::before, .c-faq__q-text::after {
   content: "";
@@ -2526,6 +2547,7 @@ img {
 .l-header__nav--list {
   display: flex;
   font-size: 1.6rem;
+  font-weight: bold;
 }
 .l-header__nav--item {
   margin-left: 2.8rem;
@@ -2537,6 +2559,7 @@ img {
 }
 .l-header__button {
   margin-right: 1rem;
+  font-weight: 600;
 }
 .l-header__hamburger {
   margin-right: 2rem;
@@ -2603,7 +2626,7 @@ img {
   ------------------------------*/
 }
 .l-request__contents {
-  background: url("../img/cta-1.jpg") center center/cover;
+  background: url("../img/cta.jpg") center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2612,6 +2635,7 @@ img {
 .l-request__title {
   padding-top: 7rem;
   font-size: 3.2rem;
+  font-weight: 600;
   color: #fff;
 }
 @media screen and (max-width: 799px) {
@@ -2649,10 +2673,11 @@ img {
   }
 }
 .l-request__tell-text {
-  font-size: 1.6rem;
   margin-right: 2rem;
-  text-align: right;
   flex: 1;
+  text-align: right;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 @media screen and (max-width: 799px) {
   .l-request__tell-text {
@@ -2823,16 +2848,16 @@ img {
 }
 
 .u-top-view--price {
-  background: url(img/plan.jpg) center center/cover;
+  background: url(../img/tv-plan.jpg) center center/cover;
 }
 .u-top-view--blog {
-  background: url(img/blog.jpg) center center/cover;
+  background: url(../img/tv-blog.jpg) center center/cover;
 }
 .u-top-view--news {
-  background: url(img/news.jpg) center center/cover;
+  background: url(../img/tv-news.jpg) center center/cover;
 }
 .u-top-view--contact {
-  background: url(img/cta.jpg) center center/cover;
+  background: url(../img/tv-cta.jpg) center center/cover;
 }
 
 .u-link {

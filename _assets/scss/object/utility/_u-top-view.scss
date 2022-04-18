@@ -1,14 +1,14 @@
 .u-top-view {
   &--price {
-    background: urL(img/plan.jpg) center center / cover;
+    background: urL(../img/tv-plan.jpg) center center / cover;
   }
   &--blog {
-    background: urL(img/blog.jpg) center center / cover;
+    background: urL(../img/tv-blog.jpg) center center / cover;
   }
   &--news {
-    background: urL(img/news.jpg) center center / cover;
+    background: urL(../img/tv-news.jpg) center center / cover;
   }
   &--contact {
-    background: urL(img/cta.jpg) center center / cover;
+    background: urL(../img/tv-cta.jpg) center center / cover;
   }
 }

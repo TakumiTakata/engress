@@ -5,7 +5,7 @@
   /* contents
   ------------------------------*/
   &__contents {
-    background: url('../img/cta-1.jpg') center center / cover;
+    background: url('../img/cta.jpg') center center / cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +16,7 @@
   &__title {
     padding-top: 7rem;
     font-size: 3.2rem;
+    font-weight: 600;
     color: #fff;
     @include mq('sp') {
       font-size: 2.4rem;
@@ -54,10 +55,11 @@
   }
 
   &__tell-text {
-    font-size: 1.6rem;
     margin-right: 2rem;
-    text-align: right;
     flex: 1;
+    text-align: right;
+    font-size: 1.6rem;
+    font-weight: 600;
     @include mq('sp') {
       margin-right: 0;
       font-size: 1.2rem;
